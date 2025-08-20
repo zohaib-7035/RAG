@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en" data-darkreader-mode="dynamic" data-darkreader-scheme="dark" style="overflow: hidden;"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style data-tippy-stylesheet="">.tippy-box[data-animation=fade][data-state=hidden]{opacity:0}[data-tippy-root]{max-width:calc(100vw - 10px)}.tippy-box{position:relative;background-color:#333;color:#fff;border-radius:4px;font-size:14px;line-height:1.4;white-space:normal;outline:0;transition-property:transform,visibility,opacity}.tippy-box[data-placement^=top]>.tippy-arrow{bottom:0}.tippy-box[data-placement^=top]>.tippy-arrow:before{bottom:-7px;left:0;border-width:8px 8px 0;border-top-color:initial;transform-origin:center top}.tippy-box[data-placement^=bottom]>.tippy-arrow{top:0}.tippy-box[data-placement^=bottom]>.tippy-arrow:before{top:-7px;left:0;border-width:0 8px 8px;border-bottom-color:initial;transform-origin:center bottom}.tippy-box[data-placement^=left]>.tippy-arrow{right:0}.tippy-box[data-placement^=left]>.tippy-arrow:before{border-width:8px 0 8px 8px;border-left-color:initial;right:-7px;transform-origin:center left}.tippy-box[data-placement^=right]>.tippy-arrow{left:0}.tippy-box[data-placement^=right]>.tippy-arrow:before{left:-7px;border-width:8px 8px 8px 0;border-right-color:initial;transform-origin:center right}.tippy-box[data-inertia][data-state=visible]{transition-timing-function:cubic-bezier(.54,1.5,.38,1.11)}.tippy-arrow{width:16px;height:16px;color:#333}.tippy-arrow:before{content:"";position:absolute;border-color:transparent;border-style:solid}.tippy-content{position:relative;padding:5px 9px;z-index:1}</style><style class="darkreader darkreader--sync" media="screen"></style><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--user-agent" media="screen">@layer {
+html {
+    background-color: var(--darkreader-background-ffffff, #181a1b) !important;
+}
+html {
+    color-scheme: dark !important;
+}
+iframe {
+    color-scheme: dark !important;
+}
+html, body {
+    background-color: var(--darkreader-background-ffffff, #181a1b);
+}
+html, body {
+    border-color: var(--darkreader-border-4c4c4c, #736b5e);
+    color: var(--darkreader-text-000000, #e8e6e3);
+}
+a {
+    color: var(--darkreader-text-0040ff, #3391ff);
+}
+table {
+    border-color: var(--darkreader-border-808080, #545b5e);
+}
+mark {
+    color: var(--darkreader-text-000000, #e8e6e3);
+}
+::placeholder {
+    color: var(--darkreader-text-a9a9a9, #b2aba1);
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: var(--darkreader-background-faffbd, #404400) !important;
+    color: var(--darkreader-text-000000, #e8e6e3) !important;
+}
+::selection {
+    background-color: var(--darkreader-background-0060d4, #004daa) !important;
+    color: var(--darkreader-text-ffffff, #e8e6e3) !important;
+}
+::-moz-selection {
+    background-color: var(--darkreader-background-0060d4, #004daa) !important;
+    color: var(--darkreader-text-ffffff, #e8e6e3) !important;
+}
+}</style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen">.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, img.Wirisformula, a[data-testid="headerMediumLogo"]>svg, .d2l-navigation-link-image-container, .d2l-iframe-loading-container {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}</style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}
+[data-darkreader-inline-stopcolor] {
+  stop-color: var(--darkreader-inline-stopcolor) !important;
+}
+[data-darkreader-inline-bg] {
+  background: var(--darkreader-inline-bg) !important;
+}
+[data-darkreader-inline-border-short] {
+  border: var(--darkreader-inline-border-short) !important;
+}
+[data-darkreader-inline-border-bottom-short] {
+  border-bottom: var(--darkreader-inline-border-bottom-short) !important;
+}
+[data-darkreader-inline-border-left-short] {
+  border-left: var(--darkreader-inline-border-left-short) !important;
+}
+[data-darkreader-inline-border-right-short] {
+  border-right: var(--darkreader-inline-border-right-short) !important;
+}
+[data-darkreader-inline-border-top-short] {
+  border-top: var(--darkreader-inline-border-top-short) !important;
+}
+[data-darkreader-inline-invert] {
+    filter: invert(100%) hue-rotate(180deg);
+}</style><style class="darkreader darkreader--variables" media="screen">:root {
+   --darkreader-neutral-background: var(--darkreader-background-ffffff, #181a1b);
+   --darkreader-neutral-text: var(--darkreader-text-000000, #e8e6e3);
+   --darkreader-selection-background: var(--darkreader-background-0060d4, #004daa);
+   --darkreader-selection-text: var(--darkreader-text-ffffff, #e8e6e3);
+}</style><style class="darkreader darkreader--root-vars" media="screen"></style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keywords" content="Editor.md,editor,Markdown Editor,Markdown">
+    <meta name="description" content="Skills Network Author IDE">
+    <title>Skills Network Editor</title>
+    <link rel="stylesheet" href="Skills%20Network%20Editor_files/style.css"><style class="darkreader darkreader--sync" media="screen"></style>
+    <link rel="stylesheet" href="Skills%20Network%20Editor_files/editormd.css"><style class="darkreader darkreader--sync" media="screen"></style>
+    <link rel="stylesheet" href="Skills%20Network%20Editor_files/custom.css"><style class="darkreader darkreader--sync" media="screen"></style>
+    <link rel="stylesheet" href="Skills%20Network%20Editor_files/custom_popover.css"><style class="darkreader darkreader--sync" media="screen"></style>
+    <link rel="shortcut icon" href="https://author-ide.skills.network/public/images/SN_favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="Skills%20Network%20Editor_files/bootstrap.min.css"><style class="darkreader darkreader--sync" media="screen"></style>
+    <script src="Skills%20Network%20Editor_files/comms.js"></script><meta name="darkreader" content="4005bf24a3594f36a9d3470851fbdfce"><style class="darkreader darkreader--override" media="screen">.vimvixen-hint {
+    background-color: var(--darkreader-background-ffd76e, #684b00) !important;
+    border-color: var(--darkreader-background-c59d00, #9e7e00) !important;
+    color: var(--darkreader-text-302505, #d7d4cf) !important;
+}
+#vimvixen-console-frame {
+    color-scheme: light !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1,
+.nfe-quote-text {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: var(--darkreader-background-add8e6, #1b4958) !important;
+}
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.tou-75mvi {
+    background-color: var(--darkreader-background-cfecf5, #0f3a47) !important;
+}
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: var(--darkreader-background-f5f5f5, #1e2021) !important;
+}
+.tou-uknfeu {
+    background-color: var(--darkreader-background-faedda, #432c09) !important;
+}
+.tou-6i3zyv {
+    background-color: var(--darkreader-background-85c3d8, #245d70) !important;
+}
+div.mermaid-viewer-control-panel .btn {
+    background-color: var(--darkreader-neutral-background);
+    fill: var(--darkreader-neutral-text);
+}
+svg g rect.er {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.entityBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxOdd {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxEven {
+    fill: var(--darkreader-selection-background);
+    fill-opacity: 0.8 !important;
+}
+svg rect.er.relationshipLabelBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g g.nodes rect,
+svg g g.nodes polygon {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.task {
+    fill: var(--darkreader-selection-background) !important;
+}
+svg line.messageLine0,
+svg line.messageLine1 {
+    stroke: var(--darkreader-neutral-text) !important;
+}
+div.mermaid .actor {
+    fill: var(--darkreader-neutral-background) !important;
+}
+mitid-authenticators-code-app > .code-app-container {
+    background-color: white !important;
+    padding-top: 1rem;
+}
+iframe#unpaywall[src$="unpaywall.html"] {
+    color-scheme: light !important;
+}
+select {
+    --darkreader-bg--form-control-background-color: rgba(22, 22, 22, 0) !important;
+}
+select * {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+body#tumblr {
+    --darkreader-bg--secondary-accent: 31, 32, 34 !important;
+    --darkreader-bg--white: 23, 23, 23 !important;
+    --darkreader-text--black: 228, 224, 218 !important;
+}
+:host {
+    --d2l-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-button-icon-background-color-hover: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-color-ferrite: var(--darkreader-neutral-text) !important;
+    --d2l-color-sylvite: var(--darkreader-bg--d2l-color-sylvite) !important;
+    --d2l-dropdown-background-color: var(--darkreader-neutral-background) !important;
+    --d2l-dropdown-border-color: var(--darkreader-border--d2l-color-mica) !important;
+    --d2l-input-backgroud-color: var(--darkreader-neutral-background) !important;
+    --d2l-menu-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-tooltip-background-color: var(--darkreader-neutral-background) !important;
+    --d2l-tooltip-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+:host([_floating]) .d2l-floating-buttons-container {
+    background-color: var(--darkreader-neutral-background) !important;
+    border-top-color: var(--darkreader-border--d2l-color-mica) !important;
+    opacity: 0.88 !important;
+}
+d2l-card {
+    background: var(--darkreader-neutral-background) !important;
+    border-color: var(--darkreader-border--d2l-color-gypsum) !important;
+}
+d2l-dropdown-content > div,
+d2l-menu-item {
+    background-color: var(--darkreader-neutral-background) !important;
+    border-radius: 10px !important;
+}
+d2l-empty-state-simple {
+    border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-button-filter > ul > li > a.vui-button {
+    border-color: var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-label-text:has(.d2l-button-subtle-content):hover,
+.d2l-label-text:has(.d2l-button-subtle-content):focus,
+.d2l-label-text:has(.d2l-button-subtle-content):active {
+    background-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-navigation-centerer {
+    color: inherit !important;
+}
+.d2l-tabs-layout {
+    border-color: var(--darkreader-border--d2l-color-gypsum) !important;
+}
+.d2l-input,
+.d2l-calendar-date,
+.d2l-htmleditor-container {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.d2l-collapsible-panel {
+    border: 1px solid var(--darkreader-border--d2l-color-mica) !important;
+    border-radius: 0.4rem !important;
+}
+.d2l-collapsible-panel-divider {
+    border-bottom: 1px solid var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-w2d-flex {
+    border-bottom: 2px solid var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-collapsible-panel scrolled,
+.d2l-collapsible-panel-header,
+.d2l-w2d-collection-fixed {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.d2l-loading-spinner-bg {
+    fill: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-loading-spinner-bg-stroke {
+    stroke: var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-loading-spinner-wrapper svg path,
+.d2l-loading-spinner-wrapper svg circle {
+    fill: var(--darkreader-neutral-background) !important;
+}
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }</style>
+    <script defer="defer" src="Skills%20Network%20Editor_files/cdn.min.js"></script>
+<script type="application/ld+json">{"@context":"http://schema.org/","@type":"Article"}</script><script id="editormd-lib-xss" type="text/javascript" src="Skills%20Network%20Editor_files/xss.js"></script><link type="text/css" rel="stylesheet" href="Skills%20Network%20Editor_files/codemirror.min.css"><style class="darkreader darkreader--sync" media="screen"></style><link type="text/css" rel="stylesheet" href="Skills%20Network%20Editor_files/foldgutter.css"><style class="darkreader darkreader--sync" media="screen"></style><script id="editormd-lib-codemirror-codemirror-min" type="text/javascript" src="Skills%20Network%20Editor_files/codemirror.min.js"></script><script id="editormd-lib-codemirror-modes-min" type="text/javascript" src="Skills%20Network%20Editor_files/modes.min.js"></script><script id="editormd-lib-codemirror-addons-min" type="text/javascript" src="Skills%20Network%20Editor_files/addons.min.js"></script><link type="text/css" rel="stylesheet" href="Skills%20Network%20Editor_files/pastel-on-dark.css"><style class="darkreader darkreader--sync" media="screen"></style><script id="editormd-lib-marked-min" type="text/javascript" src="Skills%20Network%20Editor_files/marked.min.js"></script><script id="editormd-lib-prettify-min" type="text/javascript" src="Skills%20Network%20Editor_files/prettify.min.js"></script><script id="editormd-lib-raphael-min" type="text/javascript" src="Skills%20Network%20Editor_files/raphael.min.js"></script><script id="editormd-lib-underscore-min" type="text/javascript" src="Skills%20Network%20Editor_files/underscore.min.js"></script><script id="editormd-lib-flowchart-min" type="text/javascript" src="Skills%20Network%20Editor_files/flowchart.min.js"></script><script id="editormd-lib-jquery-flowchart-min" type="text/javascript" src="Skills%20Network%20Editor_files/jquery.flowchart.min.js"></script><script id="editormd-lib-sequence-diagram-min" type="text/javascript" src="Skills%20Network%20Editor_files/sequence-diagram.min.js"></script><link type="text/css" rel="stylesheet" href="Skills%20Network%20Editor_files/katex.min.css"><style class="darkreader darkreader--cors" media="screen">.katex{text-rendering:auto;font:normal 1.21em KaTeX_Main,Times New Roman,serif;line-height:1.2;text-indent:0}.katex *{-ms-high-contrast-adjust:none!important;border-color:currentColor}.katex .katex-version:after{content:"0.15.6"}.katex .katex-mathml{clip:rect(1px,1px,1px,1px);border:0;height:1px;overflow:hidden;padding:0;position:absolute;width:1px}.katex .katex-html>.newline{display:block}.katex .base{position:relative;white-space:nowrap;width:-webkit-min-content;width:-moz-min-content;width:min-content}.katex .base,.katex .strut{display:inline-block}.katex .textbf{font-weight:700}.katex .textit{font-style:italic}.katex .textrm{font-family:KaTeX_Main}.katex .textsf{font-family:KaTeX_SansSerif}.katex .texttt{font-family:KaTeX_Typewriter}.katex .mathnormal{font-family:KaTeX_Math;font-style:italic}.katex .mathit{font-family:KaTeX_Main;font-style:italic}.katex .mathrm{font-style:normal}.katex .mathbf{font-family:KaTeX_Main;font-weight:700}.katex .boldsymbol{font-family:KaTeX_Math;font-style:italic;font-weight:700}.katex .amsrm,.katex .mathbb,.katex .textbb{font-family:KaTeX_AMS}.katex .mathcal{font-family:KaTeX_Caligraphic}.katex .mathfrak,.katex .textfrak{font-family:KaTeX_Fraktur}.katex .mathtt{font-family:KaTeX_Typewriter}.katex .mathscr,.katex .textscr{font-family:KaTeX_Script}.katex .mathsf,.katex .textsf{font-family:KaTeX_SansSerif}.katex .mathboldsf,.katex .textboldsf{font-family:KaTeX_SansSerif;font-weight:700}.katex .mathitsf,.katex .textitsf{font-family:KaTeX_SansSerif;font-style:italic}.katex .mainrm{font-family:KaTeX_Main;font-style:normal}.katex .vlist-t{border-collapse:collapse;display:inline-table;table-layout:fixed}.katex .vlist-r{display:table-row}.katex .vlist{display:table-cell;position:relative;vertical-align:bottom}.katex .vlist>span{display:block;height:0;position:relative}.katex .vlist>span>span{display:inline-block}.katex .vlist>span>.pstrut{overflow:hidden;width:0}.katex .vlist-t2{margin-right:-2px}.katex .vlist-s{display:table-cell;font-size:1px;min-width:2px;vertical-align:bottom;width:2px}.katex .vbox{align-items:baseline;display:inline-flex;flex-direction:column}.katex .hbox{width:100%}.katex .hbox,.katex .thinbox{display:inline-flex;flex-direction:row}.katex .thinbox{max-width:0;width:0}.katex .msupsub{text-align:left}.katex .mfrac>span>span{text-align:center}.katex .mfrac .frac-line{border-bottom-style:solid;display:inline-block;width:100%}.katex .hdashline,.katex .hline,.katex .mfrac .frac-line,.katex .overline .overline-line,.katex .rule,.katex .underline .underline-line{min-height:1px}.katex .mspace{display:inline-block}.katex .clap,.katex .llap,.katex .rlap{position:relative;width:0}.katex .clap>.inner,.katex .llap>.inner,.katex .rlap>.inner{position:absolute}.katex .clap>.fix,.katex .llap>.fix,.katex .rlap>.fix{display:inline-block}.katex .llap>.inner{right:0}.katex .clap>.inner,.katex .rlap>.inner{left:0}.katex .clap>.inner>span{margin-left:-50%;margin-right:50%}.katex .rule{border:0 solid;display:inline-block;position:relative}.katex .hline,.katex .overline .overline-line,.katex .underline .underline-line{border-bottom-style:solid;display:inline-block;width:100%}.katex .hdashline{border-bottom-style:dashed;display:inline-block;width:100%}.katex .sqrt>.root{margin-left:.27777778em;margin-right:-.55555556em}.katex .fontsize-ensurer.reset-size1.size1,.katex .sizing.reset-size1.size1{font-size:1em}.katex .fontsize-ensurer.reset-size1.size2,.katex .sizing.reset-size1.size2{font-size:1.2em}.katex .fontsize-ensurer.reset-size1.size3,.katex .sizing.reset-size1.size3{font-size:1.4em}.katex .fontsize-ensurer.reset-size1.size4,.katex .sizing.reset-size1.size4{font-size:1.6em}.katex .fontsize-ensurer.reset-size1.size5,.katex .sizing.reset-size1.size5{font-size:1.8em}.katex .fontsize-ensurer.reset-size1.size6,.katex .sizing.reset-size1.size6{font-size:2em}.katex .fontsize-ensurer.reset-size1.size7,.katex .sizing.reset-size1.size7{font-size:2.4em}.katex .fontsize-ensurer.reset-size1.size8,.katex .sizing.reset-size1.size8{font-size:2.88em}.katex .fontsize-ensurer.reset-size1.size9,.katex .sizing.reset-size1.size9{font-size:3.456em}.katex .fontsize-ensurer.reset-size1.size10,.katex .sizing.reset-size1.size10{font-size:4.148em}.katex .fontsize-ensurer.reset-size1.size11,.katex .sizing.reset-size1.size11{font-size:4.976em}.katex .fontsize-ensurer.reset-size2.size1,.katex .sizing.reset-size2.size1{font-size:.83333333em}.katex .fontsize-ensurer.reset-size2.size2,.katex .sizing.reset-size2.size2{font-size:1em}.katex .fontsize-ensurer.reset-size2.size3,.katex .sizing.reset-size2.size3{font-size:1.16666667em}.katex .fontsize-ensurer.reset-size2.size4,.katex .sizing.reset-size2.size4{font-size:1.33333333em}.katex .fontsize-ensurer.reset-size2.size5,.katex .sizing.reset-size2.size5{font-size:1.5em}.katex .fontsize-ensurer.reset-size2.size6,.katex .sizing.reset-size2.size6{font-size:1.66666667em}.katex .fontsize-ensurer.reset-size2.size7,.katex .sizing.reset-size2.size7{font-size:2em}.katex .fontsize-ensurer.reset-size2.size8,.katex .sizing.reset-size2.size8{font-size:2.4em}.katex .fontsize-ensurer.reset-size2.size9,.katex .sizing.reset-size2.size9{font-size:2.88em}.katex .fontsize-ensurer.reset-size2.size10,.katex .sizing.reset-size2.size10{font-size:3.45666667em}.katex .fontsize-ensurer.reset-size2.size11,.katex .sizing.reset-size2.size11{font-size:4.14666667em}.katex .fontsize-ensurer.reset-size3.size1,.katex .sizing.reset-size3.size1{font-size:.71428571em}.katex .fontsize-ensurer.reset-size3.size2,.katex .sizing.reset-size3.size2{font-size:.85714286em}.katex .fontsize-ensurer.reset-size3.size3,.katex .sizing.reset-size3.size3{font-size:1em}.katex .fontsize-ensurer.reset-size3.size4,.katex .sizing.reset-size3.size4{font-size:1.14285714em}.katex .fontsize-ensurer.reset-size3.size5,.katex .sizing.reset-size3.size5{font-size:1.28571429em}.katex .fontsize-ensurer.reset-size3.size6,.katex .sizing.reset-size3.size6{font-size:1.42857143em}.katex .fontsize-ensurer.reset-size3.size7,.katex .sizing.reset-size3.size7{font-size:1.71428571em}.katex .fontsize-ensurer.reset-size3.size8,.katex .sizing.reset-size3.size8{font-size:2.05714286em}.katex .fontsize-ensurer.reset-size3.size9,.katex .sizing.reset-size3.size9{font-size:2.46857143em}.katex .fontsize-ensurer.reset-size3.size10,.katex .sizing.reset-size3.size10{font-size:2.96285714em}.katex .fontsize-ensurer.reset-size3.size11,.katex .sizing.reset-size3.size11{font-size:3.55428571em}.katex .fontsize-ensurer.reset-size4.size1,.katex .sizing.reset-size4.size1{font-size:.625em}.katex .fontsize-ensurer.reset-size4.size2,.katex .sizing.reset-size4.size2{font-size:.75em}.katex .fontsize-ensurer.reset-size4.size3,.katex .sizing.reset-size4.size3{font-size:.875em}.katex .fontsize-ensurer.reset-size4.size4,.katex .sizing.reset-size4.size4{font-size:1em}.katex .fontsize-ensurer.reset-size4.size5,.katex .sizing.reset-size4.size5{font-size:1.125em}.katex .fontsize-ensurer.reset-size4.size6,.katex .sizing.reset-size4.size6{font-size:1.25em}.katex .fontsize-ensurer.reset-size4.size7,.katex .sizing.reset-size4.size7{font-size:1.5em}.katex .fontsize-ensurer.reset-size4.size8,.katex .sizing.reset-size4.size8{font-size:1.8em}.katex .fontsize-ensurer.reset-size4.size9,.katex .sizing.reset-size4.size9{font-size:2.16em}.katex .fontsize-ensurer.reset-size4.size10,.katex .sizing.reset-size4.size10{font-size:2.5925em}.katex .fontsize-ensurer.reset-size4.size11,.katex .sizing.reset-size4.size11{font-size:3.11em}.katex .fontsize-ensurer.reset-size5.size1,.katex .sizing.reset-size5.size1{font-size:.55555556em}.katex .fontsize-ensurer.reset-size5.size2,.katex .sizing.reset-size5.size2{font-size:.66666667em}.katex .fontsize-ensurer.reset-size5.size3,.katex .sizing.reset-size5.size3{font-size:.77777778em}.katex .fontsize-ensurer.reset-size5.size4,.katex .sizing.reset-size5.size4{font-size:.88888889em}.katex .fontsize-ensurer.reset-size5.size5,.katex .sizing.reset-size5.size5{font-size:1em}.katex .fontsize-ensurer.reset-size5.size6,.katex .sizing.reset-size5.size6{font-size:1.11111111em}.katex .fontsize-ensurer.reset-size5.size7,.katex .sizing.reset-size5.size7{font-size:1.33333333em}.katex .fontsize-ensurer.reset-size5.size8,.katex .sizing.reset-size5.size8{font-size:1.6em}.katex .fontsize-ensurer.reset-size5.size9,.katex .sizing.reset-size5.size9{font-size:1.92em}.katex .fontsize-ensurer.reset-size5.size10,.katex .sizing.reset-size5.size10{font-size:2.30444444em}.katex .fontsize-ensurer.reset-size5.size11,.katex .sizing.reset-size5.size11{font-size:2.76444444em}.katex .fontsize-ensurer.reset-size6.size1,.katex .sizing.reset-size6.size1{font-size:.5em}.katex .fontsize-ensurer.reset-size6.size2,.katex .sizing.reset-size6.size2{font-size:.6em}.katex .fontsize-ensurer.reset-size6.size3,.katex .sizing.reset-size6.size3{font-size:.7em}.katex .fontsize-ensurer.reset-size6.size4,.katex .sizing.reset-size6.size4{font-size:.8em}.katex .fontsize-ensurer.reset-size6.size5,.katex .sizing.reset-size6.size5{font-size:.9em}.katex .fontsize-ensurer.reset-size6.size6,.katex .sizing.reset-size6.size6{font-size:1em}.katex .fontsize-ensurer.reset-size6.size7,.katex .sizing.reset-size6.size7{font-size:1.2em}.katex .fontsize-ensurer.reset-size6.size8,.katex .sizing.reset-size6.size8{font-size:1.44em}.katex .fontsize-ensurer.reset-size6.size9,.katex .sizing.reset-size6.size9{font-size:1.728em}.katex .fontsize-ensurer.reset-size6.size10,.katex .sizing.reset-size6.size10{font-size:2.074em}.katex .fontsize-ensurer.reset-size6.size11,.katex .sizing.reset-size6.size11{font-size:2.488em}.katex .fontsize-ensurer.reset-size7.size1,.katex .sizing.reset-size7.size1{font-size:.41666667em}.katex .fontsize-ensurer.reset-size7.size2,.katex .sizing.reset-size7.size2{font-size:.5em}.katex .fontsize-ensurer.reset-size7.size3,.katex .sizing.reset-size7.size3{font-size:.58333333em}.katex .fontsize-ensurer.reset-size7.size4,.katex .sizing.reset-size7.size4{font-size:.66666667em}.katex .fontsize-ensurer.reset-size7.size5,.katex .sizing.reset-size7.size5{font-size:.75em}.katex .fontsize-ensurer.reset-size7.size6,.katex .sizing.reset-size7.size6{font-size:.83333333em}.katex .fontsize-ensurer.reset-size7.size7,.katex .sizing.reset-size7.size7{font-size:1em}.katex .fontsize-ensurer.reset-size7.size8,.katex .sizing.reset-size7.size8{font-size:1.2em}.katex .fontsize-ensurer.reset-size7.size9,.katex .sizing.reset-size7.size9{font-size:1.44em}.katex .fontsize-ensurer.reset-size7.size10,.katex .sizing.reset-size7.size10{font-size:1.72833333em}.katex .fontsize-ensurer.reset-size7.size11,.katex .sizing.reset-size7.size11{font-size:2.07333333em}.katex .fontsize-ensurer.reset-size8.size1,.katex .sizing.reset-size8.size1{font-size:.34722222em}.katex .fontsize-ensurer.reset-size8.size2,.katex .sizing.reset-size8.size2{font-size:.41666667em}.katex .fontsize-ensurer.reset-size8.size3,.katex .sizing.reset-size8.size3{font-size:.48611111em}.katex .fontsize-ensurer.reset-size8.size4,.katex .sizing.reset-size8.size4{font-size:.55555556em}.katex .fontsize-ensurer.reset-size8.size5,.katex .sizing.reset-size8.size5{font-size:.625em}.katex .fontsize-ensurer.reset-size8.size6,.katex .sizing.reset-size8.size6{font-size:.69444444em}.katex .fontsize-ensurer.reset-size8.size7,.katex .sizing.reset-size8.size7{font-size:.83333333em}.katex .fontsize-ensurer.reset-size8.size8,.katex .sizing.reset-size8.size8{font-size:1em}.katex .fontsize-ensurer.reset-size8.size9,.katex .sizing.reset-size8.size9{font-size:1.2em}.katex .fontsize-ensurer.reset-size8.size10,.katex .sizing.reset-size8.size10{font-size:1.44027778em}.katex .fontsize-ensurer.reset-size8.size11,.katex .sizing.reset-size8.size11{font-size:1.72777778em}.katex .fontsize-ensurer.reset-size9.size1,.katex .sizing.reset-size9.size1{font-size:.28935185em}.katex .fontsize-ensurer.reset-size9.size2,.katex .sizing.reset-size9.size2{font-size:.34722222em}.katex .fontsize-ensurer.reset-size9.size3,.katex .sizing.reset-size9.size3{font-size:.40509259em}.katex .fontsize-ensurer.reset-size9.size4,.katex .sizing.reset-size9.size4{font-size:.46296296em}.katex .fontsize-ensurer.reset-size9.size5,.katex .sizing.reset-size9.size5{font-size:.52083333em}.katex .fontsize-ensurer.reset-size9.size6,.katex .sizing.reset-size9.size6{font-size:.5787037em}.katex .fontsize-ensurer.reset-size9.size7,.katex .sizing.reset-size9.size7{font-size:.69444444em}.katex .fontsize-ensurer.reset-size9.size8,.katex .sizing.reset-size9.size8{font-size:.83333333em}.katex .fontsize-ensurer.reset-size9.size9,.katex .sizing.reset-size9.size9{font-size:1em}.katex .fontsize-ensurer.reset-size9.size10,.katex .sizing.reset-size9.size10{font-size:1.20023148em}.katex .fontsize-ensurer.reset-size9.size11,.katex .sizing.reset-size9.size11{font-size:1.43981481em}.katex .fontsize-ensurer.reset-size10.size1,.katex .sizing.reset-size10.size1{font-size:.24108004em}.katex .fontsize-ensurer.reset-size10.size2,.katex .sizing.reset-size10.size2{font-size:.28929605em}.katex .fontsize-ensurer.reset-size10.size3,.katex .sizing.reset-size10.size3{font-size:.33751205em}.katex .fontsize-ensurer.reset-size10.size4,.katex .sizing.reset-size10.size4{font-size:.38572806em}.katex .fontsize-ensurer.reset-size10.size5,.katex .sizing.reset-size10.size5{font-size:.43394407em}.katex .fontsize-ensurer.reset-size10.size6,.katex .sizing.reset-size10.size6{font-size:.48216008em}.katex .fontsize-ensurer.reset-size10.size7,.katex .sizing.reset-size10.size7{font-size:.57859209em}.katex .fontsize-ensurer.reset-size10.size8,.katex .sizing.reset-size10.size8{font-size:.69431051em}.katex .fontsize-ensurer.reset-size10.size9,.katex .sizing.reset-size10.size9{font-size:.83317261em}.katex .fontsize-ensurer.reset-size10.size10,.katex .sizing.reset-size10.size10{font-size:1em}.katex .fontsize-ensurer.reset-size10.size11,.katex .sizing.reset-size10.size11{font-size:1.19961427em}.katex .fontsize-ensurer.reset-size11.size1,.katex .sizing.reset-size11.size1{font-size:.20096463em}.katex .fontsize-ensurer.reset-size11.size2,.katex .sizing.reset-size11.size2{font-size:.24115756em}.katex .fontsize-ensurer.reset-size11.size3,.katex .sizing.reset-size11.size3{font-size:.28135048em}.katex .fontsize-ensurer.reset-size11.size4,.katex .sizing.reset-size11.size4{font-size:.32154341em}.katex .fontsize-ensurer.reset-size11.size5,.katex .sizing.reset-size11.size5{font-size:.36173633em}.katex .fontsize-ensurer.reset-size11.size6,.katex .sizing.reset-size11.size6{font-size:.40192926em}.katex .fontsize-ensurer.reset-size11.size7,.katex .sizing.reset-size11.size7{font-size:.48231511em}.katex .fontsize-ensurer.reset-size11.size8,.katex .sizing.reset-size11.size8{font-size:.57877814em}.katex .fontsize-ensurer.reset-size11.size9,.katex .sizing.reset-size11.size9{font-size:.69453376em}.katex .fontsize-ensurer.reset-size11.size10,.katex .sizing.reset-size11.size10{font-size:.83360129em}.katex .fontsize-ensurer.reset-size11.size11,.katex .sizing.reset-size11.size11{font-size:1em}.katex .delimsizing.size1{font-family:KaTeX_Size1}.katex .delimsizing.size2{font-family:KaTeX_Size2}.katex .delimsizing.size3{font-family:KaTeX_Size3}.katex .delimsizing.size4{font-family:KaTeX_Size4}.katex .delimsizing.mult .delim-size1>span{font-family:KaTeX_Size1}.katex .delimsizing.mult .delim-size4>span{font-family:KaTeX_Size4}.katex .nulldelimiter{display:inline-block;width:.12em}.katex .delimcenter,.katex .op-symbol{position:relative}.katex .op-symbol.small-op{font-family:KaTeX_Size1}.katex .op-symbol.large-op{font-family:KaTeX_Size2}.katex .accent>.vlist-t,.katex .op-limits>.vlist-t{text-align:center}.katex .accent .accent-body{position:relative}.katex .accent .accent-body:not(.accent-full){width:0}.katex .overlay{display:block}.katex .mtable .vertical-separator{display:inline-block;min-width:1px}.katex .mtable .arraycolsep{display:inline-block}.katex .mtable .col-align-c>.vlist-t{text-align:center}.katex .mtable .col-align-l>.vlist-t{text-align:left}.katex .mtable .col-align-r>.vlist-t{text-align:right}.katex .svg-align{text-align:left}.katex svg{fill:currentColor;stroke:currentColor;fill-rule:nonzero;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:block;height:inherit;position:absolute;width:100%}.katex svg path{stroke:none}.katex img{border-style:none;max-height:none;max-width:none;min-height:0;min-width:0}.katex .stretchy{display:block;overflow:hidden;position:relative;width:100%}.katex .stretchy:after,.katex .stretchy:before{content:""}.katex .hide-tail{overflow:hidden;position:relative;width:100%}.katex .halfarrow-left{left:0;overflow:hidden;position:absolute;width:50.2%}.katex .halfarrow-right{overflow:hidden;position:absolute;right:0;width:50.2%}.katex .brace-left{left:0;overflow:hidden;position:absolute;width:25.1%}.katex .brace-center{left:25%;overflow:hidden;position:absolute;width:50%}.katex .brace-right{overflow:hidden;position:absolute;right:0;width:25.1%}.katex .x-arrow-pad{padding:0 .5em}.katex .cd-arrow-pad{padding:0 .55556em 0 .27778em}.katex .mover,.katex .munder,.katex .x-arrow{text-align:center}.katex .boxpad{padding:0 .3em}.katex .fbox,.katex .fcolorbox{border:.04em solid;box-sizing:border-box}.katex .cancel-pad{padding:0 .2em}.katex .cancel-lap{margin-left:-.2em;margin-right:-.2em}.katex .sout{border-bottom-style:solid;border-bottom-width:.08em}.katex .angl{border-right:.049em solid;border-top:.049em solid;box-sizing:border-box;margin-right:.03889em}.katex .anglpad{padding:0 .03889em}.katex .eqn-num:before{content:"(" counter(katexEqnNo) ")";counter-increment:katexEqnNo}.katex .mml-eqn-num:before{content:"(" counter(mmlEqnNo) ")";counter-increment:mmlEqnNo}.katex .mtr-glue{width:50%}.katex .cd-vert-arrow{display:inline-block;position:relative}.katex .cd-label-left{display:inline-block;position:absolute;right:calc(50% + .3em);text-align:left}.katex .cd-label-right{display:inline-block;left:calc(50% + .3em);position:absolute;text-align:right}.katex-display{display:block;margin:1em 0;text-align:center}.katex-display>.katex{display:block;text-align:center;white-space:nowrap}.katex-display>.katex>.katex-html{display:block;position:relative}.katex-display>.katex>.katex-html>.tag{position:absolute;right:0}.katex-display.leqno>.katex>.katex-html>.tag{left:0;right:auto}.katex-display.fleqn>.katex{padding-left:2em;text-align:left}body{counter-reset:katexEqnNo mmlEqnNo}</style><style class="darkreader darkreader--sync" media="screen"></style><script id="https:-cdnjs-cloudflare-com-ajax-libs-KaTeX-0-15-6-katex-min" type="text/javascript" src="Skills%20Network%20Editor_files/katex.min.js"></script></head>
+
+<body style="overflow: hidden;"><div hidden="" id="sprite-plyr"><!--?xml version="1.0" encoding="UTF-8"?--><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"><symbol id="plyr-airplay" viewBox="0 0 18 18"><path d="M16 1H2a1 1 0 00-1 1v10a1 1 0 001 1h3v-2H3V3h12v8h-2v2h3a1 1 0 001-1V2a1 1 0 00-1-1z"></path><path d="M4 17h10l-5-6z"></path></symbol><symbol id="plyr-captions-off" viewBox="0 0 18 18"><path d="M1 1c-.6 0-1 .4-1 1v11c0 .6.4 1 1 1h4.6l2.7 2.7c.2.2.4.3.7.3.3 0 .5-.1.7-.3l2.7-2.7H17c.6 0 1-.4 1-1V2c0-.6-.4-1-1-1H1zm4.52 10.15c1.99 0 3.01-1.32 3.28-2.41l-1.29-.39c-.19.66-.78 1.45-1.99 1.45-1.14 0-2.2-.83-2.2-2.34 0-1.61 1.12-2.37 2.18-2.37 1.23 0 1.78.75 1.95 1.43l1.3-.41C8.47 4.96 7.46 3.76 5.5 3.76c-1.9 0-3.61 1.44-3.61 3.7 0 2.26 1.65 3.69 3.63 3.69zm7.57 0c1.99 0 3.01-1.32 3.28-2.41l-1.29-.39c-.19.66-.78 1.45-1.99 1.45-1.14 0-2.2-.83-2.2-2.34 0-1.61 1.12-2.37 2.18-2.37 1.23 0 1.78.75 1.95 1.43l1.3-.41c-.28-1.15-1.29-2.35-3.25-2.35-1.9 0-3.61 1.44-3.61 3.7 0 2.26 1.65 3.69 3.63 3.69z" fill-rule="evenodd" fill-opacity=".5"></path></symbol><symbol id="plyr-captions-on" viewBox="0 0 18 18"><path d="M1 1c-.6 0-1 .4-1 1v11c0 .6.4 1 1 1h4.6l2.7 2.7c.2.2.4.3.7.3.3 0 .5-.1.7-.3l2.7-2.7H17c.6 0 1-.4 1-1V2c0-.6-.4-1-1-1H1zm4.52 10.15c1.99 0 3.01-1.32 3.28-2.41l-1.29-.39c-.19.66-.78 1.45-1.99 1.45-1.14 0-2.2-.83-2.2-2.34 0-1.61 1.12-2.37 2.18-2.37 1.23 0 1.78.75 1.95 1.43l1.3-.41C8.47 4.96 7.46 3.76 5.5 3.76c-1.9 0-3.61 1.44-3.61 3.7 0 2.26 1.65 3.69 3.63 3.69zm7.57 0c1.99 0 3.01-1.32 3.28-2.41l-1.29-.39c-.19.66-.78 1.45-1.99 1.45-1.14 0-2.2-.83-2.2-2.34 0-1.61 1.12-2.37 2.18-2.37 1.23 0 1.78.75 1.95 1.43l1.3-.41c-.28-1.15-1.29-2.35-3.25-2.35-1.9 0-3.61 1.44-3.61 3.7 0 2.26 1.65 3.69 3.63 3.69z" fill-rule="evenodd"></path></symbol><symbol id="plyr-download" viewBox="0 0 18 18"><path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z"></path></symbol><symbol id="plyr-enter-fullscreen" viewBox="0 0 18 18"><path d="M10 3h3.6l-4 4L11 8.4l4-4V8h2V1h-7zM7 9.6l-4 4V10H1v7h7v-2H4.4l4-4z"></path></symbol><symbol id="plyr-exit-fullscreen" viewBox="0 0 18 18"><path d="M1 12h3.6l-4 4L2 17.4l4-4V17h2v-7H1zM16 .6l-4 4V1h-2v7h7V6h-3.6l4-4z"></path></symbol><symbol id="plyr-fast-forward" viewBox="0 0 18 18"><path d="M7.875 7.171L0 1v16l7.875-6.171V17L18 9 7.875 1z"></path></symbol><symbol id="plyr-logo-vimeo" viewBox="0 0 18 18"><path d="M17 5.3c-.1 1.6-1.2 3.7-3.3 6.4-2.2 2.8-4 4.2-5.5 4.2-.9 0-1.7-.9-2.4-2.6C5 10.9 4.4 6 3 6c-.1 0-.5.3-1.2.8l-.8-1c.8-.7 3.5-3.4 4.7-3.5 1.2-.1 2 .7 2.3 2.5.3 2 .8 6.1 1.8 6.1.9 0 2.5-3.4 2.6-4 .1-.9-.3-1.9-2.3-1.1.8-2.6 2.3-3.8 4.5-3.8 1.7.1 2.5 1.2 2.4 3.3z"></path></symbol><symbol id="plyr-logo-youtube" viewBox="0 0 18 18"><path d="M16.8 5.8c-.2-1.3-.8-2.2-2.2-2.4C12.4 3 9 3 9 3s-3.4 0-5.6.4C2 3.6 1.3 4.5 1.2 5.8 1 7.1 1 9 1 9s0 1.9.2 3.2c.2 1.3.8 2.2 2.2 2.4C5.6 15 9 15 9 15s3.4 0 5.6-.4c1.4-.3 2-1.1 2.2-2.4.2-1.3.2-3.2.2-3.2s0-1.9-.2-3.2zM7 12V6l5 3-5 3z"></path></symbol><symbol id="plyr-muted" viewBox="0 0 18 18"><path d="M12.4 12.5l2.1-2.1 2.1 2.1 1.4-1.4L15.9 9 18 6.9l-1.4-1.4-2.1 2.1-2.1-2.1L11 6.9 13.1 9 11 11.1zM3.786 6.008H.714C.286 6.008 0 6.31 0 6.76v4.512c0 .452.286.752.714.752h3.072l4.071 3.858c.5.3 1.143 0 1.143-.602V2.752c0-.601-.643-.977-1.143-.601L3.786 6.008z"></path></symbol><symbol id="plyr-pause" viewBox="0 0 18 18"><path d="M6 1H3c-.6 0-1 .4-1 1v14c0 .6.4 1 1 1h3c.6 0 1-.4 1-1V2c0-.6-.4-1-1-1zm6 0c-.6 0-1 .4-1 1v14c0 .6.4 1 1 1h3c.6 0 1-.4 1-1V2c0-.6-.4-1-1-1h-3z"></path></symbol><symbol id="plyr-pip" viewBox="0 0 18 18"><path d="M13.293 3.293L7.022 9.564l1.414 1.414 6.271-6.271L17 7V1h-6z"></path><path d="M13 15H3V5h5V3H2a1 1 0 00-1 1v12a1 1 0 001 1h12a1 1 0 001-1v-6h-2v5z"></path></symbol><symbol id="plyr-play" viewBox="0 0 18 18"><path d="M15.562 8.1L3.87.225c-.818-.562-1.87 0-1.87.9v15.75c0 .9 1.052 1.462 1.87.9L15.563 9.9c.584-.45.584-1.35 0-1.8z"></path></symbol><symbol id="plyr-restart" viewBox="0 0 18 18"><path d="M9.7 1.2l.7 6.4 2.1-2.1c1.9 1.9 1.9 5.1 0 7-.9 1-2.2 1.5-3.5 1.5-1.3 0-2.6-.5-3.5-1.5-1.9-1.9-1.9-5.1 0-7 .6-.6 1.4-1.1 2.3-1.3l-.6-1.9C6 2.6 4.9 3.2 4 4.1 1.3 6.8 1.3 11.2 4 14c1.3 1.3 3.1 2 4.9 2 1.9 0 3.6-.7 4.9-2 2.7-2.7 2.7-7.1 0-9.9L16 1.9l-6.3-.7z"></path></symbol><symbol id="plyr-rewind" viewBox="0 0 18 18"><path d="M10.125 1L0 9l10.125 8v-6.171L18 17V1l-7.875 6.171z"></path></symbol><symbol id="plyr-settings" viewBox="0 0 18 18"><path d="M16.135 7.784a2 2 0 01-1.23-2.969c.322-.536.225-.998-.094-1.316l-.31-.31c-.318-.318-.78-.415-1.316-.094a2 2 0 01-2.969-1.23C10.065 1.258 9.669 1 9.219 1h-.438c-.45 0-.845.258-.997.865a2 2 0 01-2.969 1.23c-.536-.322-.999-.225-1.317.093l-.31.31c-.318.318-.415.781-.093 1.317a2 2 0 01-1.23 2.969C1.26 7.935 1 8.33 1 8.781v.438c0 .45.258.845.865.997a2 2 0 011.23 2.969c-.322.536-.225.998.094 1.316l.31.31c.319.319.782.415 1.316.094a2 2 0 012.969 1.23c.151.607.547.865.997.865h.438c.45 0 .845-.258.997-.865a2 2 0 012.969-1.23c.535.321.997.225 1.316-.094l.31-.31c.318-.318.415-.781.094-1.316a2 2 0 011.23-2.969c.607-.151.865-.547.865-.997v-.438c0-.451-.26-.846-.865-.997zM9 12a3 3 0 110-6 3 3 0 010 6z"></path></symbol><symbol id="plyr-volume" viewBox="0 0 18 18"><path d="M15.6 3.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4C15.4 5.9 16 7.4 16 9c0 1.6-.6 3.1-1.8 4.3-.4.4-.4 1 0 1.4.2.2.5.3.7.3.3 0 .5-.1.7-.3C17.1 13.2 18 11.2 18 9s-.9-4.2-2.4-5.7z"></path><path d="M11.282 5.282a.909.909 0 000 1.316c.735.735.995 1.458.995 2.402 0 .936-.425 1.917-.995 2.487a.909.909 0 000 1.316c.145.145.636.262 1.018.156a.725.725 0 00.298-.156C13.773 11.733 14.13 10.16 14.13 9c0-.17-.002-.34-.011-.51-.053-.992-.319-2.005-1.522-3.208a.909.909 0 00-1.316 0zm-7.496.726H.714C.286 6.008 0 6.31 0 6.76v4.512c0 .452.286.752.714.752h3.072l4.071 3.858c.5.3 1.143 0 1.143-.602V2.752c0-.601-.643-.977-1.143-.601L3.786 6.008z"></path></symbol></svg></div>
+    <div id="layout">
+    <div id="test-editormd" class="editormd editormd-vertical editormd-theme-dark editormd-fullscreen" style="width: 500px; height: 500px;">
+        <textarea style="display:none;" class="editormd-markdown-textarea" placeholder="Enjoy Markdown! coding now..." name="test-editormd-markdown-doc">#
+ Introduction to RAG
+
+&lt;img 
+src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/
+IBMSkillsNetwork-WD0231EN-SkillsNetwork/IDSN-logo.png" width="200" 
+alt="cognitiveclass.ai logo"  /&gt; &lt;br&gt;
+
+**Estimated Reading Time: 10 minutes**
+
+## What is RAG
+Retrieval-Augmented Generation (RAG) is a machine-learning technique 
+that integrates information retrieval with generative AI to produce 
+accurate and context-aware responses. By equipping generative models, 
+such as large language models (LLMs), with access to external data 
+sources, RAG enhances the model\'s ability to provide relevant and 
+helpful answers to user prompts or queries.
+
+## Why RAG?
+To understand the value of RAG, we need to consider the limitations of 
+generative models that aren\'t part of a RAG system. The following image
+ describes the response generation process of an LLM that is not part of
+ a RAG pipeline:
+
+&lt;img 
+src="https://cf-courses-data.s3.us.cloud-object-
+storage.appdomain.cloud/5qfzRWTlts29ZeiHTH7BsA/
+LLM%20based%20RG%20Process.png"  width="1200" height="436"&gt;&amp;nbsp;
+
+LLMs embedded in such pipelines cannot access external sources and are 
+limited to the information provided by the user in a prompt and the 
+information the LLM was trained on. Consequently, these LLMs are prone 
+to generating responses that may be:
+
+1. Inaccurate,
+2. Outdated, or
+3. Fabricated (\'hallucinations\')
+
+Additionally, such responses often lack valid sources, making it 
+difficult to trace their origin or verify their accuracy. Now, consider a
+ generative model integrated into an RAG system. The diagram below 
+outlines the response generation component of such a system:
+
+&lt;img 
+src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/
+abWZvA0v5uGGM4Plr57hRg/RAG%20based%20RG%20Process.png"  width="1200" 
+height="436"&gt;&amp;nbsp;
+
+In an RAG system, the key addition is the retrieved text, which is 
+sourced from an external data store. Steps are taken to ensure that the 
+retrieved text aligns with the user\'s original prompt. This retrieved 
+text is then combined with the original prompt using methods such as 
+simple concatenation or a structured prompt template, where specific 
+sections are filled with the original prompt and the retrieved text.
+
+The result is an \'augmented prompt,\' which merges the user\'s original
+ prompt with the supplementary information provided by the retrieved 
+text. The LLM then processes this augmented prompt, enabling it to 
+generate a response that incorporates both the original prompt and the 
+relevant additional context.
+
+This approach addresses several key challenges:
+
+1. **Enhanced response quality:** By incorporating relevant, retrieved 
+data into the model\'s input, the system can deliver more accurate and 
+detailed responses.
+2. **Up-to-date information:** Unlike the model\'s static training data,
+ external data can provide the system with current information, 
+improving its ability to answer questions that require the latest 
+insights.
+3. **Verification of sources:** By citing specific external documents or
+ sources, the system allows users to trace the information back to its 
+origin, fostering greater trust and enabling users to verify the 
+accuracy of the response.
+
+### What about models with long context lengths?
+
+RAG was developed and gained popularity during a period when models with
+ large context lengths were uncommon. Today, models capable of handling 
+context lengths up to 128,000 tokens or more are widely available. To 
+put this into perspective, a token is a unit of text that can represent a
+ word, part of a word, or even punctuation marks and spaces. Since 
+tokens are not strictly equivalent to words, the ratio of tokens to 
+words can vary. In English, a good estimate is that 100 tokens 
+correspond to about 75 words. Based on this, a model with a 
+128,000-token context length can process an English text of 
+approximately 96,000 words. This is long enough to include numerous 
+relevant details within a prompt, providing the model with substantial 
+contextual information.
+
+However, relying solely on such extended context lengths presents 
+several limitations:
+
+1. **Input Dependency:** Users must already possess the necessary source
+ information to provide within the prompt. Without this, the model 
+cannot generate insights or solutions.
+2. **Limited Capacity:** Although a 128,000-token capacity is 
+significant, it may still fall short for extremely lengthy texts. For 
+example, English translations of War and Peace by Leo Tolstoy generally 
+exceed 560,000 words—more than five times this limit.
+3. **Redundancy Issues:** Even when all relevant details fit within the 
+prompt, irrelevant or repeated information can dilute the LLM\'s focus. 
+This creates a \"needle in a haystack\" challenge for the model, as it 
+must sift through vast data to extract critical facts.
+4. **Processing Time:** Longer prompts require additional processing 
+time. Since AI models analyze input by breaking it into tokens, more 
+tokens result in longer processing times.
+5. **Cost Implications:** Using a high number of tokens in prompts also 
+increases both computational and financial costs, making this approach 
+potentially less practical in some applications.
+
+RAG helps address these challenges, either partially or fully:
+	
+1. **Input Dependency:** RAG connects to an external data store that 
+users do not need to provide or even be aware of to interact 
+successfully with the system.
+2. **Limited Capacity:** RAG retrieves only the text most relevant to 
+the prompt, creating smaller augmented prompts that fit within LLM 
+context limits.
+3. **Redundancy Issues:** RAG ensures only the most pertinent 
+information is passed to the LLM, making it easier for the system to 
+identify relevant details in source texts.
+4. **Processing Time:** Shorter augmented prompts in RAG reduce the 
+response generation time compared to non-RAG systems that include all 
+available source information within the augmented prompt.
+5. **Cost Implications:** By using shorter augmented prompts, RAG 
+reduces response generation costs, especially for systems with extensive
+ data sources.
+
+## How does RAG work?
+
+The following diagram illustrates the RAG process for a basic RAG 
+system. Note that this is just one possible representation, and 
+alternative diagrams may result from various modifications or 
+adaptations of the RAG system. However, this diagram captures the core 
+concept, as all variations build on the common themes presented here:
+
+&lt;img 
+src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/
+kWQChGw0Tpvg0pQf-rXm_A/RAG%20Process.png" alt="RAG Process" width="1200"
+ height="436"&gt;&amp;nbsp;
+
+The steps in the RAG process are as follows:
+
+1. **Gather Sources:** Start with sources like office documents, company
+ policies, or any other relevant information that may provide context 
+for the user\'s future prompt.
+2. **Embed Sources:** Pass the gathered information through an embedding
+ model. The embedding model converts each chunk of text into a vector 
+representation, which is essentially a fixed-length column of numbers.
+3. **Store Vectors:** Store the embedded source vectors in a vector 
+store — a specialized database optimized for storing and manipulating 
+vector data.
+4. **Obtain a User\'s Prompt:** Receive a prompt from the user.
+5. **Embed the User\'s Prompt:** Embed the user\'s prompt using the same
+ embedding model used for the source documents. This produces a prompt 
+embedding, which is a vector of numbers equal in length to the vectors 
+representing the source embeddings.
+6. **Retrieve Relevant Data:** Pass the prompt embedding to the 
+retriever. The retriever also accesses the vector store to find and pull
+ relevant source embeddings (vectors) that match the prompt embedding. 
+The retriever\'s output is the retrieved text.
+7. **Create an Augmented Prompt:** Combine the retrieved text with the 
+user\'s original prompt to form an augmented prompt.
+8. **Obtain a Response:** Feed the augmented prompt into a large 
+language model (LLM), which processes it and produces a response.
+
+## RAG Details
+
+There are many nuances to each of the RAG steps highlighted above. Some 
+of these details are elaborated on below:
+
+1. **Gather Sources**
+- Gathering sources often involves preprocessing the data before moving 
+to the next step.
+- Preprocessing may include converting source files into more 
+machine-friendly formats (for example, turning PDFs into plain text) or 
+utilizing dynamic preprocessing libraries before passing documents to 
+the next phase.
+
+2. **Embed Sources**
+- Steps involved in embedding documents:
+	- Chunking: Large documents are split into smaller, manageable chunks 
+to enable efficient retrieval.
+	- Embedding: Text chunks are processed by an embedding model, distinct 
+from the LLM used for response generation. This embedding model 
+transforms text chunks into fixed-length numeric vectors that capture 
+their semantic meaning.
+- How embedding works:
+	- Tokenization: Text is split into tokens (for example, words, parts of
+ words, punctuation). Each token is assigned (encoded with) a unique 
+numerical ID with no intrinsic meaning—IDs are consistent for the same 
+token.
+	- Neural Network Processing: Token IDs are input into the embedding 
+model\'s neural network, producing fixed-length vectors that encapsulate
+ the text\'s semantic meaning.
+
+3. **Store Vectors**
+- Embedding vectors are stored for future retrieval.
+- Simple systems use matrices, but most utilize specialized vector 
+databases like ChromaDB, FAISS, or Milvus. Each database offers unique 
+features and limitations.
+
+4. **Obtain a User\'s Prompt**
+- A user\'s prompt can either be standalone or incorporate prior 
+conversation history.
+- If a discussion history is included, conversation memory tools (for 
+example, LangChain, LlamaIndex) help augment the current prompt with the
+ relevant context.
+
+5. **Embed the User\'s Prompt**
+- The user\'s prompt is embedded using the same embedding model as the 
+source documents, ensuring compatibility.
+
+6. **Retrieve Relevant Data**
+- Various retrieval strategies exist, such as:
+	- Retrieving the most relevant text chunk.
+	- Fetching the entire document containing the relevant chunk.
+	- Retrieving multiple relevant documents.
+
+7. **Create an Augmented Prompt**
+- Augmented prompts merge the user\'s original query with retrieved 
+data.
+- Common methods include:
+	- Simple concatenation of the user\'s prompt with retrieved text.
+	- Using structured templates where different components (for example, 
+user input, retrieved text) are placed alongside additional instructions
+ for the LLM to follow.
+
+8. **Obtain a Response**
+- Responses can be further refined using predefined templates, ensuring a
+ consistent presentation style tailored to the use case.
+
+The many intricacies of each RAG step contribute to a wide range of 
+implementation possibilities, enabling customization to suit various 
+applications and needs.
+
+
+&lt;footer&gt;
+&lt;img align="left" 
+src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/
+_0pf5KEVoKC1Gwwaqh5J6Q/IBM%20footer%20logo.png" alt=""&gt;
+&lt;/footer&gt;
+
+&lt;!--
+## Changelog
+| Date | Version | Changed by | Change Description |
+|------|--------|--------|---------|
+| 2025-03-31 | 1.0 | Wojciech Fulmyk | Initial version created |
+| 2025-04-03 | 1.1 | Alok Narula | Revised and published to AWB|
+| 2025-04-03 | 1.2 | Andrea Hansis | Content QA |
+--&gt;</textarea><div class="CodeMirror cm-s-pastel-on-dark CodeMirror-wrap" translate="no" style="font-size: 13px; width: 500.667px; height: 500px; margin-top: 0px; display: none;"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 0px;"><textarea style="position: absolute; bottom: -1em; padding: 0px; width: 1px; height: 1em; min-height: 1em; outline: none; --darkreader-inline-outline: currentcolor;" wrap="off" autocorrect="off" autocapitalize="none" spellcheck="false" disabled="disabled" readonly="readonly" tabindex="0" data-darkreader-inline-outline=""></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px; width: 18px; pointer-events: none; display: block;"><div style="min-width: 1px; height: 51906px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true" style="height: 18px; pointer-events: none;"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1" draggable="true"><div class="CodeMirror-sizer" style="margin-left: 50px; margin-bottom: 0px; border-right-width: 50px; min-height: 6224px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div style="position: relative; outline: none; --darkreader-inline-outline: currentcolor;" role="presentation" data-darkreader-inline-outline=""><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>128</div></div></div><div class="CodeMirror-measure"><pre class="CodeMirror-line" role="presentation"><span role="presentation"><span class="cm-header cm-header-1"># Introduction to RAG</span></span></pre></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"></div><div class="CodeMirror-code" role="presentation" style=""><div style="position: relative;" class="CodeMirror-activeline"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: -50px; width: 55px;"></div><div class="CodeMirror-gutter-wrapper CodeMirror-activeline-gutter" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 22px;">1</div><div class="CodeMirror-gutter-elt" style="left: 43px; width: 9px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-header cm-header-1"># Introduction to RAG</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">2</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">3</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">img</span> <span class="cm-attribute">src</span>=<span class="cm-string">"</span><span class="cm-string cm-link">https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-WD0231EN-SkillsNetwork/IDSN-logo.png</span><span class="cm-string">"</span> <span class="cm-attribute">width</span>=<span class="cm-string">"200"</span> <span class="cm-attribute">alt</span>=<span class="cm-string">"cognitiveclass.ai logo"</span> &nbsp;<span class="cm-tag cm-bracket">/&gt;</span> <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">br</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">4</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">5</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-strong">**Estimated Reading Time: 10 minutes**</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">6</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 22px;">7</div><div class="CodeMirror-gutter-elt" style="left: 43px; width: 9px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-header cm-header-2">## What is RAG</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">8</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation">Retrieval-Augmented Generation (RAG) is a machine-learning technique that integrates information retrieval with generative AI to produce accurate and context-aware responses. By equipping generative models, such as large language models (LLMs), with access to external data sources, RAG enhances the model\'s ability to provide relevant and helpful answers to user prompts or queries.</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">9</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 22px;">10</div><div class="CodeMirror-gutter-elt" style="left: 43px; width: 9px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-header cm-header-2">## Why RAG?</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">11</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation">To understand the value of RAG, we need to consider the limitations of generative models that aren\'t part of a RAG system. The following image describes the response generation process of an LLM that is not part of a RAG pipeline:</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">12</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">13</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">img</span> <span class="cm-attribute">src</span>=<span class="cm-string">"</span><span class="cm-string cm-link">https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/5qfzRWTlts29ZeiHTH7BsA/LLM%20based%20RG%20Process.png</span><span class="cm-string">"</span> &nbsp;<span class="cm-attribute">width</span>=<span class="cm-string">"1200"</span> <span class="cm-attribute">height</span>=<span class="cm-string">"436"</span><span class="cm-tag cm-bracket">&gt;</span>&amp;nbsp;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">14</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">15</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation">LLMs embedded in such pipelines cannot access external sources and are limited to the information provided by the user in a prompt and the information the LLM was trained on. Consequently, these LLMs are prone to generating responses that may be:</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">16</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">17</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">1. Inaccurate,</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">18</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">2. Outdated, or</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">19</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">3. Fabricated (\'hallucinations\')</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">20</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">21</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation">Additionally, such responses often lack valid sources, making it difficult to trace their origin or verify their accuracy. Now, consider a generative model integrated into an RAG system. The diagram below outlines the response generation component of such a system:</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">22</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">23</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">img</span> <span class="cm-attribute">src</span>=<span class="cm-string">"</span><span class="cm-string cm-link">https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/abWZvA0v5uGGM4Plr57hRg/RAG%20based%20RG%20Process.png</span><span class="cm-string">"</span> &nbsp;<span class="cm-attribute">width</span>=<span class="cm-string">"1200"</span> <span class="cm-attribute">height</span>=<span class="cm-string">"436"</span><span class="cm-tag cm-bracket">&gt;</span>&amp;nbsp;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">24</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">25</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation">In an RAG system, the key addition is the retrieved text, which is sourced from an external data store. Steps are taken to ensure that the retrieved text aligns with the user\'s original prompt. This retrieved text is then combined with the original prompt using methods such as simple concatenation or a structured prompt template, where specific sections are filled with the original prompt and the retrieved text.</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">26</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">27</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation">The result is an \'augmented prompt,\' which merges the user\'s original prompt with the supplementary information provided by the retrieved text. The LLM then processes this augmented prompt, enabling it to generate a response that incorporates both the original prompt and the relevant additional context.</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">28</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">29</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation">This approach addresses several key challenges:</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">30</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">31</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">1. </span><span class="cm-strong cm-variable-2">**Enhanced response quality:**</span><span class="cm-variable-2"> By incorporating relevant, retrieved data into the model\'s input, the system can deliver more accurate and detailed responses.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">32</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">2. </span><span class="cm-strong cm-variable-2">**Up-to-date information:**</span><span class="cm-variable-2"> Unlike the model\'s static training data, external data can provide the system with current information, improving its ability to answer questions that require the latest insights.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">33</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">3. </span><span class="cm-strong cm-variable-2">**Verification of sources:**</span><span class="cm-variable-2"> By citing specific external documents or sources, the system allows users to trace the information back to its origin, fostering greater trust and enabling users to verify the accuracy of the response.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">34</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 22px;">35</div><div class="CodeMirror-gutter-elt" style="left: 43px; width: 9px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-header cm-header-3">### What about models with long context lengths?</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">36</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">37</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation">RAG was developed and gained popularity during a period when models with large context lengths were uncommon. Today, models capable of handling context lengths up to 128,000 tokens or more are widely available. To put this into perspective, a token is a unit of text that can represent a word, part of a word, or even punctuation marks and spaces. Since tokens are not strictly equivalent to words, the ratio of tokens to words can vary. In English, a good estimate is that 100 tokens correspond to about 75 words. Based on this, a model with a 128,000-token context length can process an English text of approximately 96,000 words. This is long enough to include numerous relevant details within a prompt, providing the model with substantial contextual information.</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">38</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">39</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation">However, relying solely on such extended context lengths presents several limitations:</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">40</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">41</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">1. </span><span class="cm-strong cm-variable-2">**Input Dependency:**</span><span class="cm-variable-2"> Users must already possess the necessary source information to provide within the prompt. Without this, the model cannot generate insights or solutions.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">42</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">2. </span><span class="cm-strong cm-variable-2">**Limited Capacity:**</span><span class="cm-variable-2"> Although a 128,000-token capacity is significant, it may still fall short for extremely lengthy texts. For example, English translations of War and Peace by Leo Tolstoy generally exceed 560,000 words—more than five times this limit.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">43</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">3. </span><span class="cm-strong cm-variable-2">**Redundancy Issues:**</span><span class="cm-variable-2"> Even when all relevant details fit within the prompt, irrelevant or repeated information can dilute the LLM\'s focus. This creates a \"needle in a haystack\" challenge for the model, as it must sift through vast data to extract critical facts.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">44</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">4. </span><span class="cm-strong cm-variable-2">**Processing Time:**</span><span class="cm-variable-2"> Longer prompts require additional processing time. Since AI models analyze input by breaking it into tokens, more tokens result in longer processing times.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">45</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">5. </span><span class="cm-strong cm-variable-2">**Cost Implications:**</span><span class="cm-variable-2"> Using a high number of tokens in prompts also increases both computational and financial costs, making this approach potentially less practical in some applications.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">46</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">47</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation">RAG helps address these challenges, either partially or fully:</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">48</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-overlay cm-trailingspace"><span class="cm-tab" role="presentation" cm-text="	">    </span></span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">49</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">1. </span><span class="cm-strong cm-variable-2">**Input Dependency:**</span><span class="cm-variable-2"> RAG connects to an external data store that users do not need to provide or even be aware of to interact successfully with the system.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">50</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">2. </span><span class="cm-strong cm-variable-2">**Limited Capacity:**</span><span class="cm-variable-2"> RAG retrieves only the text most relevant to the prompt, creating smaller augmented prompts that fit within LLM context limits.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">51</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">3. </span><span class="cm-strong cm-variable-2">**Redundancy Issues:**</span><span class="cm-variable-2"> RAG ensures only the most pertinent information is passed to the LLM, making it easier for the system to identify relevant details in source texts.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">52</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">4. </span><span class="cm-strong cm-variable-2">**Processing Time:**</span><span class="cm-variable-2"> Shorter augmented prompts in RAG reduce the response generation time compared to non-RAG systems that include all available source information within the augmented prompt.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">53</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">5. </span><span class="cm-strong cm-variable-2">**Cost Implications:**</span><span class="cm-variable-2"> By using shorter augmented prompts, RAG reduces response generation costs, especially for systems with extensive data sources.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">54</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 22px;">55</div><div class="CodeMirror-gutter-elt" style="left: 43px; width: 9px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-header cm-header-2">## How does RAG work?</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">56</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">57</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation">The following diagram illustrates the RAG process for a basic RAG system. Note that this is just one possible representation, and alternative diagrams may result from various modifications or adaptations of the RAG system. However, this diagram captures the core concept, as all variations build on the common themes presented here:</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">58</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">59</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">img</span> <span class="cm-attribute">src</span>=<span class="cm-string">"</span><span class="cm-string cm-link">https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/kWQChGw0Tpvg0pQf-rXm_A/RAG%20Process.png</span><span class="cm-string">"</span> <span class="cm-attribute">alt</span>=<span class="cm-string">"RAG Process"</span> <span class="cm-attribute">width</span>=<span class="cm-string">"1200"</span> <span class="cm-attribute">height</span>=<span class="cm-string">"436"</span><span class="cm-tag cm-bracket">&gt;</span>&amp;nbsp;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">60</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">61</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation">The steps in the RAG process are as follows:</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">62</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">63</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">1. </span><span class="cm-strong cm-variable-2">**Gather Sources:**</span><span class="cm-variable-2"> Start with sources like office documents, company policies, or any other relevant information that may provide context for the user\'s future prompt.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">64</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">2. </span><span class="cm-strong cm-variable-2">**Embed Sources:**</span><span class="cm-variable-2"> Pass the gathered information through an embedding model. The embedding model converts each chunk of text into a vector representation, which is essentially a fixed-length column of numbers.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">65</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">3. </span><span class="cm-strong cm-variable-2">**Store Vectors:**</span><span class="cm-variable-2"> Store the embedded source vectors in a vector store — a specialized database optimized for storing and manipulating vector data.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">66</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">4. </span><span class="cm-strong cm-variable-2">**Obtain a User\'s Prompt:**</span><span class="cm-variable-2"> Receive a prompt from the user.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">67</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">5. </span><span class="cm-strong cm-variable-2">**Embed the User\'s Prompt:**</span><span class="cm-variable-2"> Embed the user\'s prompt using the same embedding model used for the source documents. This produces a prompt embedding, which is a vector of numbers equal in length to the vectors representing the source embeddings.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">68</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">6. </span><span class="cm-strong cm-variable-2">**Retrieve Relevant Data:**</span><span class="cm-variable-2"> Pass the prompt embedding to the retriever. The retriever also accesses the vector store to find and pull relevant source embeddings (vectors) that match the prompt embedding. The retriever\'s output is the retrieved text.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">69</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">7. </span><span class="cm-strong cm-variable-2">**Create an Augmented Prompt:**</span><span class="cm-variable-2"> Combine the retrieved text with the user\'s original prompt to form an augmented prompt.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">70</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">8. </span><span class="cm-strong cm-variable-2">**Obtain a Response:**</span><span class="cm-variable-2"> Feed the augmented prompt into a large language model (LLM), which processes it and produces a response.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">71</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 22px;">72</div><div class="CodeMirror-gutter-elt" style="left: 43px; width: 9px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-header cm-header-2">## RAG Details</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">73</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">74</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation">There are many nuances to each of the RAG steps highlighted above. Some of these details are elaborated on below:</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">75</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">76</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">1. </span><span class="cm-strong cm-variable-2">**Gather Sources**</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">77</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">- Gathering sources often involves preprocessing the data before moving to the next step.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">78</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">- Preprocessing may include converting source files into more machine-friendly formats (for example, turning PDFs into plain text) or utilizing dynamic preprocessing libraries before passing documents to the next phase.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">79</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">80</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">2. </span><span class="cm-strong cm-variable-2">**Embed Sources**</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">81</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">- Steps involved in embedding documents:</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">82</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-variable-3">- Chunking: Large documents are split into smaller, manageable chunks to enable efficient retrieval.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">83</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-variable-3">- Embedding: Text chunks are processed by an embedding model, distinct from the LLM used for response generation. This embedding model transforms text chunks into fixed-length numeric vectors that capture their semantic meaning.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">84</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">- How embedding works:</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">85</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-variable-3">- Tokenization: Text is split into tokens (for example, words, parts of words, punctuation). Each token is assigned (encoded with) a unique numerical ID with no intrinsic meaning—IDs are consistent for the same token.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">86</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-variable-3">- Neural Network Processing: Token IDs are input into the embedding model\'s neural network, producing fixed-length vectors that encapsulate the text\'s semantic meaning.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">87</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">88</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">3. </span><span class="cm-strong cm-variable-2">**Store Vectors**</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">89</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">- Embedding vectors are stored for future retrieval.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">90</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">- Simple systems use matrices, but most utilize specialized vector databases like ChromaDB, FAISS, or Milvus. Each database offers unique features and limitations.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">91</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">92</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">4. </span><span class="cm-strong cm-variable-2">**Obtain a User\'s Prompt**</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">93</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">- A user\'s prompt can either be standalone or incorporate prior conversation history.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">94</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">- If a discussion history is included, conversation memory tools (for example, LangChain, LlamaIndex) help augment the current prompt with the relevant context.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">95</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">96</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">5. </span><span class="cm-strong cm-variable-2">**Embed the User\'s Prompt**</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">97</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">- The user\'s prompt is embedded using the same embedding model as the source documents, ensuring compatibility.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">98</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">99</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">6. </span><span class="cm-strong cm-variable-2">**Retrieve Relevant Data**</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">100</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">- Various retrieval strategies exist, such as:</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">101</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-variable-3">- Retrieving the most relevant text chunk.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">102</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-variable-3">- Fetching the entire document containing the relevant chunk.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">103</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-variable-3">- Retrieving multiple relevant documents.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">104</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">105</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">7. </span><span class="cm-strong cm-variable-2">**Create an Augmented Prompt**</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">106</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">- Augmented prompts merge the user\'s original query with retrieved data.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">107</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">- Common methods include:</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">108</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-variable-3">- Simple concatenation of the user\'s prompt with retrieved text.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">109</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-variable-3">- Using structured templates where different components (for example, user input, retrieved text) are placed alongside additional instructions for the LLM to follow.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">110</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">111</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">8. </span><span class="cm-strong cm-variable-2">**Obtain a Response**</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">112</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable-2">- Responses can be further refined using predefined templates, ensuring a consistent presentation style tailored to the use case.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">113</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">114</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation">The many intricacies of each RAG step contribute to a wide range of implementation possibilities, enabling customization to suit various applications and needs.</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">115</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">116</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">117</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">footer</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">118</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">img</span> <span class="cm-attribute">align</span>=<span class="cm-string">"left"</span> <span class="cm-attribute">src</span>=<span class="cm-string">"</span><span class="cm-string cm-link">https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/_0pf5KEVoKC1Gwwaqh5J6Q/IBM%20footer%20logo.png</span><span class="cm-string">"</span> <span class="cm-attribute">alt</span>=<span class="cm-string">""</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">119</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">footer</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">120</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 22px;">121</div><div class="CodeMirror-gutter-elt" style="left: 43px; width: 9px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-comment">&lt;!--</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">122</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-comment">## Changelog</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">123</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-comment">| Date | Version | Changed by | Change Description |</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">124</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-comment">|------|--------|--------|---------|</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">125</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-comment">| 2025-03-31 | 1.0 | Wojciech Fulmyk | Initial version created |</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">126</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-comment">| 2025-04-03 | 1.1 | Alok Narula | Revised and published to AWB|</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">127</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-comment">| 2025-04-03 | 1.2 | Andrea Hansis | Content QA |</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -50px;" aria-hidden="true"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 22px;">128</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-comment">--&gt;</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 50px; width: 1px; border-bottom: 0px solid transparent; top: 6224px; --darkreader-inline-border-bottom: transparent;" data-darkreader-inline-border-bottom=""></div><div class="CodeMirror-gutters" style="height: 6274px; left: 0px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 30px;"></div><div class="CodeMirror-gutter CodeMirror-foldgutter"></div></div></div></div>
+    
+
+<div class="editormd-preview editormd-preview-theme-dark" style="background: rgb(255, 255, 255); top: 0px; width: 500px; height: 500px; --darkreader-inline-bgcolor: var(--darkreader-background-ffffff, #181a1b); --darkreader-inline-bgimage: none;" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage=""><div class="md-header" style="z-index:2;"><div class="toolbar"><button class="toc tool-icon" title="Table of Contents" style="visibility: hidden;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6" width="24" style="--darkreader-inline-fill: currentColor;" data-darkreader-inline-fill="">
+    <path d="M5.625 3.75a2.625 2.625 0 1 0 0 5.25h12.75a2.625 2.625 0 0 0 0-5.25H5.625ZM3.75 11.25a.75.75 0 0 0 0 1.5h16.5a.75.75 0 0 0 0-1.5H3.75ZM3 15.75a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75ZM3.75 18.75a.75.75 0 0 0 0 1.5h16.5a.75.75 0 0 0 0-1.5H3.75Z"></path>
+</svg></button>
+        <div class="tools">
+                        <div class="translation-container">
+                            <button id="translations" class="tool-icon" aria-label="Translations" title="Change Language">
+                                
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6" width="24" style="--darkreader-inline-fill: currentColor;" data-darkreader-inline-fill="">
+    <path fill-rule="evenodd" d="M9 2.25a.75.75 0 0 1 .75.75v1.506a49.384 49.384 0 0 1 5.343.371.75.75 0 1 1-.186 1.489c-.66-.083-1.323-.151-1.99-.206a18.67 18.67 0 0 1-2.97 6.323c.318.384.65.753 1 1.107a.75.75 0 0 1-1.07 1.052A18.902 18.902 0 0 1 9 13.687a18.823 18.823 0 0 1-5.656 4.482.75.75 0 0 1-.688-1.333 17.323 17.323 0 0 0 5.396-4.353A18.72 18.72 0 0 1 5.89 8.598a.75.75 0 0 1 1.388-.568A17.21 17.21 0 0 0 9 11.224a17.168 17.168 0 0 0 2.391-5.165 48.04 48.04 0 0 0-8.298.307.75.75 0 0 1-.186-1.489 49.159 49.159 0 0 1 5.343-.371V3A.75.75 0 0 1 9 2.25ZM15.75 9a.75.75 0 0 1 .68.433l5.25 11.25a.75.75 0 1 1-1.36.634l-1.198-2.567h-6.744l-1.198 2.567a.75.75 0 0 1-1.36-.634l5.25-11.25A.75.75 0 0 1 15.75 9Zm-2.672 8.25h5.344l-2.672-5.726-2.672 5.726Z" clip-rule="evenodd"></path>
+</svg>
+                            </button>
+                            <div id="translations-dropdown" class="translations-selected-dropdown hidden z-3" name="translation-dropdown">
+                            
+                        <div class="disclaimer">
+                            <span>*Translations are machine generated <strong>(BETA)</strong></span>
+                        </div>
+                    
+                            <button type="button" class="dropdown-translation-item-block" data-lang="EN" onclick="setTranslationContent('EN')">
+                                <span>English [Original]</span>
+                                
+                            <span class="checkmark"></span></button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="ID" onclick="setTranslationContent('ID')">
+                                <span>Bahasa Indonesia </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="DE" onclick="setTranslationContent('DE')">
+                                <span>Deutsch </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="ES" onclick="setTranslationContent('ES')">
+                                <span>Español </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="FR" onclick="setTranslationContent('FR')">
+                                <span>Français </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="IT" onclick="setTranslationContent('IT')">
+                                <span>Italiano </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="HU" onclick="setTranslationContent('HU')">
+                                <span>Magyar </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="NL" onclick="setTranslationContent('NL')">
+                                <span>Nederlands </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="PL" onclick="setTranslationContent('PL')">
+                                <span>Polski </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="PT" onclick="setTranslationContent('PT')">
+                                <span>Português </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="SV" onclick="setTranslationContent('SV')">
+                                <span>Svenska </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="TR" onclick="setTranslationContent('TR')">
+                                <span>Türkçe </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="EL" onclick="setTranslationContent('EL')">
+                                <span>Ελληνικά </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="KK" onclick="setTranslationContent('KK')">
+                                <span>Қазақ тілі </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="RU" onclick="setTranslationContent('RU')">
+                                <span>Русский </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="UK" onclick="setTranslationContent('UK')">
+                                <span>Українська </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="AR" onclick="setTranslationContent('AR')">
+                                <span>العربية </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="HI" onclick="setTranslationContent('HI')">
+                                <span>हिन्दी </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="TH" onclick="setTranslationContent('TH')">
+                                <span>ไทย </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="KO" onclick="setTranslationContent('KO')">
+                                <span>한국어 </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="ZH" onclick="setTranslationContent('ZH')">
+                                <span>中文 </span>
+                                
+                            </button>
+                        
+                            <button type="button" class="dropdown-translation-item-block" data-lang="JA" onclick="setTranslationContent('JA')">
+                                <span>日本語 </span>
+                                
+                            </button>
+                        </div>
+                        </div>
+                    
+            <button value="off" class="tool-icon" id="togglePreviewTheme" title="Toggle preview theme">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6" width="24" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke="">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"></path>
+</svg></button><button id="audioToggleButton" class="tool-icon" type="button" title="Toggle Audio Section" data-bs-toggle="collapse" aria-expanded="true" aria-controls="#audio-widget-container" data-target="#audio-widget-container">
+            
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6" width="24" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke="">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z"></path>
+    </svg>
+            </button>
+            <button class="tool-icon" id="print" title="Print instructions">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6" width="24" style="--darkreader-inline-fill: currentColor;" data-darkreader-inline-fill="">
+    <path fill-rule="evenodd" d="M7.875 1.5C6.839 1.5 6 2.34 6 3.375v2.99c-.426.053-.851.11-1.274.174-1.454.218-2.476 1.483-2.476 2.917v6.294a3 3 0 0 0 3 3h.27l-.155 1.705A1.875 1.875 0 0 0 7.232 22.5h9.536a1.875 1.875 0 0 0 1.867-2.045l-.155-1.705h.27a3 3 0 0 0 3-3V9.456c0-1.434-1.022-2.7-2.476-2.917A48.716 48.716 0 0 0 18 6.366V3.375c0-1.036-.84-1.875-1.875-1.875h-8.25ZM16.5 6.205v-2.83A.375.375 0 0 0 16.125 3h-8.25a.375.375 0 0 0-.375.375v2.83a49.353 49.353 0 0 1 9 0Zm-.217 8.265c.178.018.317.16.333.337l.526 5.784a.375.375 0 0 1-.374.409H7.232a.375.375 0 0 1-.374-.409l.526-5.784a.373.373 0 0 1 .333-.337 41.741 41.741 0 0 1 8.566 0Zm.967-3.97a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75H18a.75.75 0 0 1-.75-.75V10.5ZM15 9.75a.75.75 0 0 0-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 0 0 .75-.75V10.5a.75.75 0 0 0-.75-.75H15Z" clip-rule="evenodd"></path>
+</svg></button>
+            <button class="tool-icon" id="font-up" title="Increase font size">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6" width="24" style="--darkreader-inline-fill: currentColor;" data-darkreader-inline-fill="">
+    <path fill-rule="evenodd" d="M5.625 1.5H9a3.75 3.75 0 0 1 3.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 0 1 3.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 0 1-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875ZM12.75 12a.75.75 0 0 0-1.5 0v2.25H9a.75.75 0 0 0 0 1.5h2.25V18a.75.75 0 0 0 1.5 0v-2.25H15a.75.75 0 0 0 0-1.5h-2.25V12Z" clip-rule="evenodd"></path>
+    <path d="M14.25 5.25a5.23 5.23 0 0 0-1.279-3.434 9.768 9.768 0 0 1 6.963 6.963A5.23 5.23 0 0 0 16.5 7.5h-1.875a.375.375 0 0 1-.375-.375V5.25Z"></path>
+</svg></button>
+            <button class="tool-icon" id="font-down" title="Decrease font size">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6" width="24" style="--darkreader-inline-fill: currentColor;" data-darkreader-inline-fill="">
+    <path fill-rule="evenodd" d="M5.625 1.5H9a3.75 3.75 0 0 1 3.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 0 1 3.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 0 1-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875ZM9.75 14.25a.75.75 0 0 0 0 1.5H15a.75.75 0 0 0 0-1.5H9.75Z" clip-rule="evenodd"></path>
+    <path d="M14.25 5.25a5.23 5.23 0 0 0-1.279-3.434 9.768 9.768 0 0 1 6.963 6.963A5.23 5.23 0 0 0 16.5 7.5h-1.875a.375.375 0 0 1-.375-.375V5.25Z"></path>
+</svg></button>
+        </div>
+    </div>         <nav class="instruction-progress-bar" aria-label="pagination">             <div class="instruction-progress-fill"></div>             <ul class="pagination"></ul>         </nav></div><div class="table-of-contents"></div><div class="sticky-header" style="z-index:1;"></div>
+            <div id="audio-container">
+                <div class="collapse show" id="audio-widget-container">
+                    <div id="audio-widget" class="">
+                        <div class="plyr plyr--full-ui plyr--audio plyr--html5 plyr--paused plyr--stopped"><div class="plyr__controls"><button class="plyr__controls__item plyr__control" type="button" data-plyr="play" aria-pressed="false" aria-label="Play"><svg class="icon--pressed" aria-hidden="true" focusable="false"><use xlink:href="#plyr-pause"></use></svg><svg class="icon--not-pressed" aria-hidden="true" focusable="false"><use xlink:href="#plyr-play"></use></svg><span class="label--pressed plyr__sr-only">Pause</span><span class="label--not-pressed plyr__sr-only">Play</span></button><div class="plyr__controls__item plyr__progress__container"><div class="plyr__progress"><input data-plyr="seek" type="range" min="0" max="100" step="0.01" value="0" autocomplete="off" role="slider" aria-label="Seek" aria-valuemin="0" aria-valuemax="0" aria-valuenow="0" id="plyr-seek-7466" style="--value: 0%;"><progress class="plyr__progress__buffer" min="0" max="100" value="0" role="progressbar" aria-hidden="true">% buffered</progress><span class="plyr__tooltip">00:00</span></div></div><div class="plyr__controls__item plyr__time--current plyr__time" aria-label="Current time" role="timer">00:00</div><div class="plyr__controls__item plyr__volume"><button type="button" class="plyr__control" data-plyr="mute" aria-pressed="false"><svg class="icon--pressed" aria-hidden="true" focusable="false"><use xlink:href="#plyr-muted"></use></svg><svg class="icon--not-pressed" aria-hidden="true" focusable="false"><use xlink:href="#plyr-volume"></use></svg><span class="label--pressed plyr__sr-only">Unmute</span><span class="label--not-pressed plyr__sr-only">Mute</span></button><input data-plyr="volume" type="range" min="0" max="1" step="0.05" value="1" autocomplete="off" role="slider" aria-label="Volume" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" id="plyr-volume-7466" style="--value: 100%;" aria-valuetext="100.0%"></div><button class="plyr__controls__item plyr__control" type="button" data-plyr="captions" aria-pressed="false"><svg class="icon--pressed" aria-hidden="true" focusable="false"><use xlink:href="#plyr-captions-on"></use></svg><svg class="icon--not-pressed" aria-hidden="true" focusable="false"><use xlink:href="#plyr-captions-off"></use></svg><span class="label--pressed plyr__sr-only">Disable captions</span><span class="label--not-pressed plyr__sr-only">Enable captions</span></button><div class="plyr__controls__item plyr__menu"><button aria-haspopup="true" aria-controls="plyr-settings-7466" aria-expanded="false" type="button" class="plyr__control" data-plyr="settings" aria-pressed="false"><svg aria-hidden="true" focusable="false"><use xlink:href="#plyr-settings"></use></svg><span class="plyr__sr-only">Settings</span></button><div class="plyr__menu__container" id="plyr-settings-7466" hidden=""><div><div id="plyr-settings-7466-home"><div role="menu"><button data-plyr="settings" type="button" class="plyr__control plyr__control--forward" role="menuitem" aria-haspopup="true" hidden=""><span>Captions<span class="plyr__menu__value">Disabled</span></span></button><button data-plyr="settings" type="button" class="plyr__control plyr__control--forward" role="menuitem" aria-haspopup="true" hidden=""><span>Quality<span class="plyr__menu__value">undefined</span></span></button><button data-plyr="settings" type="button" class="plyr__control plyr__control--forward" role="menuitem" aria-haspopup="true"><span>Speed<span class="plyr__menu__value">Normal</span></span></button></div></div><div id="plyr-settings-7466-captions" hidden=""><button type="button" class="plyr__control plyr__control--back"><span aria-hidden="true">Captions</span><span class="plyr__sr-only">Go back to previous menu</span></button><div role="menu"></div></div><div id="plyr-settings-7466-quality" hidden=""><button type="button" class="plyr__control plyr__control--back"><span aria-hidden="true">Quality</span><span class="plyr__sr-only">Go back to previous menu</span></button><div role="menu"></div></div><div id="plyr-settings-7466-speed" hidden=""><button type="button" class="plyr__control plyr__control--back"><span aria-hidden="true">Speed</span><span class="plyr__sr-only">Go back to previous menu</span></button><div role="menu"><button data-plyr="speed" type="button" role="menuitemradio" class="plyr__control" aria-checked="false" value="0.5"><span>0.5×</span></button><button data-plyr="speed" type="button" role="menuitemradio" class="plyr__control" aria-checked="false" value="0.75"><span>0.75×</span></button><button data-plyr="speed" type="button" role="menuitemradio" class="plyr__control" aria-checked="true" value="1"><span>Normal</span></button><button data-plyr="speed" type="button" role="menuitemradio" class="plyr__control" aria-checked="false" value="1.25"><span>1.25×</span></button><button data-plyr="speed" type="button" role="menuitemradio" class="plyr__control" aria-checked="false" value="1.5"><span>1.5×</span></button><button data-plyr="speed" type="button" role="menuitemradio" class="plyr__control" aria-checked="false" value="1.75"><span>1.75×</span></button><button data-plyr="speed" type="button" role="menuitemradio" class="plyr__control" aria-checked="false" value="2"><span>2×</span></button><button data-plyr="speed" type="button" role="menuitemradio" class="plyr__control" aria-checked="false" value="4"><span>4×</span></button></div></div></div></div></div><button class="plyr__controls__item plyr__control" type="button" data-plyr="fullscreen" aria-pressed="false"><svg class="icon--pressed" aria-hidden="true" focusable="false"><use xlink:href="#plyr-exit-fullscreen"></use></svg><svg class="icon--not-pressed" aria-hidden="true" focusable="false"><use xlink:href="#plyr-enter-fullscreen"></use></svg><span class="label--pressed plyr__sr-only">Exit fullscreen</span><span class="label--not-pressed plyr__sr-only">Enter fullscreen</span></button></div><audio crossorigin="" playsinline="">
+                            <!-- Source will be added when play is clicked -->
+                        </audio><button type="button" class="plyr__control plyr__control--overlaid" data-plyr="play" aria-pressed="false" aria-label="Play"><svg aria-hidden="true" focusable="false"><use xlink:href="#plyr-play"></use></svg><span class="plyr__sr-only">Play</span></button></div>
+                    </div>
+                </div>
+            </div>
+    <div class="markdown-body editormd-preview-container editormd-preview-active" previewcontainer="true"><h1><span class="header-link octicon octicon-link"></span>Introduction to RAG</h1><p><img src="Skills%20Network%20Editor_files/IDSN-logo.png" width="200" alt="cognitiveclass.ai logo"> <br></p>
+<p><strong>Estimated Reading Time: 10 minutes</strong></p>
+<h2><span class="header-link octicon octicon-link"></span>What is RAG</h2><p>Retrieval-
+Augmented Generation (RAG) is a machine-learning technique that 
+integrates information retrieval with generative AI to produce accurate 
+and context-aware responses. By equipping generative models, such as 
+large language models (LLMs), with access to external data sources, RAG 
+enhances the model's ability to provide relevant and helpful answers to 
+user prompts or queries.</p>
+<h2><span class="header-link octicon octicon-link"></span>Why RAG?</h2><p>To
+ understand the value of RAG, we need to consider the limitations of 
+generative models that aren't part of a RAG system. The following image 
+describes the response generation process of an LLM that is not part of a
+ RAG pipeline:</p>
+<p><img src="Skills%20Network%20Editor_files/LLM%20based%20RG%20Process.png" width="1200" height="436">&nbsp;</p>
+<p>LLMs embedded in such pipelines cannot access external sources and 
+are limited to the information provided by the user in a prompt and the 
+information the LLM was trained on. Consequently, these LLMs are prone 
+to generating responses that may be:</p>
+<ol>
+<li>Inaccurate,</li><li>Outdated, or</li><li>Fabricated ('hallucinations')</li></ol>
+<p>Additionally, such responses often lack valid sources, making it 
+difficult to trace their origin or verify their accuracy. Now, consider a
+ generative model integrated into an RAG system. The diagram below 
+outlines the response generation component of such a system:</p>
+<p><img src="Skills%20Network%20Editor_files/RAG%20based%20RG%20Process.png" width="1200" height="436">&nbsp;</p>
+<p>In an RAG system, the key addition is the retrieved text, which is 
+sourced from an external data store. Steps are taken to ensure that the 
+retrieved text aligns with the user's original prompt. This retrieved 
+text is then combined with the original prompt using methods such as 
+simple concatenation or a structured prompt template, where specific 
+sections are filled with the original prompt and the retrieved text.</p>
+<p>The result is an 'augmented prompt,' which merges the user's original
+ prompt with the supplementary information provided by the retrieved 
+text. The LLM then processes this augmented prompt, enabling it to 
+generate a response that incorporates both the original prompt and the 
+relevant additional context.</p>
+<p>This approach addresses several key challenges:</p>
+<ol>
+<li><strong>Enhanced response quality:</strong> By incorporating relevant, retrieved data into the model's input, the system can deliver more accurate and detailed responses.</li><li><strong>Up-to-date information:</strong>
+ Unlike the model's static training data, external data can provide the 
+system with current information, improving its ability to answer 
+questions that require the latest insights.</li><li><strong>Verification of sources:</strong>
+ By citing specific external documents or sources, the system allows 
+users to trace the information back to its origin, fostering greater 
+trust and enabling users to verify the accuracy of the response.</li></ol>
+<h3><span class="header-link octicon octicon-link"></span>What about models with long context lengths?</h3><p>RAG
+ was developed and gained popularity during a period when models with 
+large context lengths were uncommon. Today, models capable of handling 
+context lengths up to 128,000 tokens or more are widely available. To 
+put this into perspective, a token is a unit of text that can represent a
+ word, part of a word, or even punctuation marks and spaces. Since 
+tokens are not strictly equivalent to words, the ratio of tokens to 
+words can vary. In English, a good estimate is that 100 tokens 
+correspond to about 75 words. Based on this, a model with a 
+128,000-token context length can process an English text of 
+approximately 96,000 words. This is long enough to include numerous 
+relevant details within a prompt, providing the model with substantial 
+contextual information.</p>
+<p>However, relying solely on such extended context lengths presents several limitations:</p>
+<ol>
+<li><strong>Input Dependency:</strong> Users must already possess the 
+necessary source information to provide within the prompt. Without this,
+ the model cannot generate insights or solutions.</li><li><strong>Limited Capacity:</strong>
+ Although a 128,000-token capacity is significant, it may still fall 
+short for extremely lengthy texts. For example, English translations of 
+War and Peace by Leo Tolstoy generally exceed 560,000 words—more than 
+five times this limit.</li><li><strong>Redundancy Issues:</strong> Even 
+when all relevant details fit within the prompt, irrelevant or repeated 
+information can dilute the LLM's focus. This creates a "needle in a 
+haystack" challenge for the model, as it must sift through vast data to 
+extract critical facts.</li><li><strong>Processing Time:</strong> Longer
+ prompts require additional processing time. Since AI models analyze 
+input by breaking it into tokens, more tokens result in longer 
+processing times.</li><li><strong>Cost Implications:</strong> Using a 
+high number of tokens in prompts also increases both computational and 
+financial costs, making this approach potentially less practical in some
+ applications.</li></ol>
+<p>RAG helps address these challenges, either partially or fully:</p>
+<ol>
+<li><strong>Input Dependency:</strong> RAG connects to an external data 
+store that users do not need to provide or even be aware of to interact 
+successfully with the system.</li><li><strong>Limited Capacity:</strong> RAG retrieves only the text most relevant to the prompt, creating smaller augmented prompts that fit within LLM context limits.</li><li><strong>Redundancy Issues:</strong>
+ RAG ensures only the most pertinent information is passed to the LLM, 
+making it easier for the system to identify relevant details in source 
+texts.</li><li><strong>Processing Time:</strong> Shorter augmented 
+prompts in RAG reduce the response generation time compared to non-RAG 
+systems that include all available source information within the 
+augmented prompt.</li><li><strong>Cost Implications:</strong> By using shorter augmented prompts, RAG reduces response generation costs, especially for systems with extensive data sources.</li></ol>
+<h2><span class="header-link octicon octicon-link"></span>How does RAG work?</h2><p>The
+ following diagram illustrates the RAG process for a basic RAG system. 
+Note that this is just one possible representation, and alternative 
+diagrams may result from various modifications or adaptations of the RAG
+ system. However, this diagram captures the core concept, as all 
+variations build on the common themes presented here:</p>
+<p><img src="Skills%20Network%20Editor_files/RAG%20Process.png" alt="RAG Process" width="1200" height="436">&nbsp;</p>
+<p>The steps in the RAG process are as follows:</p>
+<ol>
+<li><strong>Gather Sources:</strong> Start with sources like office 
+documents, company policies, or any other relevant information that may 
+provide context for the user's future prompt.</li><li><strong>Embed Sources:</strong>
+ Pass the gathered information through an embedding model. The embedding
+ model converts each chunk of text into a vector representation, which 
+is essentially a fixed-length column of numbers.</li><li><strong>Store Vectors:</strong>
+ Store the embedded source vectors in a vector store — a specialized 
+database optimized for storing and manipulating vector data.</li><li><strong>Obtain a User's Prompt:</strong> Receive a prompt from the user.</li><li><strong>Embed the User's Prompt:</strong>
+ Embed the user's prompt using the same embedding model used for the 
+source documents. This produces a prompt embedding, which is a vector of
+ numbers equal in length to the vectors representing the source 
+embeddings.</li><li><strong>Retrieve Relevant Data:</strong> Pass the 
+prompt embedding to the retriever. The retriever also accesses the 
+vector store to find and pull relevant source embeddings (vectors) that 
+match the prompt embedding. The retriever's output is the retrieved 
+text.</li><li><strong>Create an Augmented Prompt:</strong> Combine the retrieved text with the user's original prompt to form an augmented prompt.</li><li><strong>Obtain a Response:</strong> Feed the augmented prompt into a large language model (LLM), which processes it and produces a response.</li></ol>
+<h2><span class="header-link octicon octicon-link"></span>RAG Details</h2><p>There are many nuances to each of the RAG steps highlighted above. Some of these details are elaborated on below:</p>
+<ol>
+<li><strong>Gather Sources</strong></li></ol>
+<ul>
+<li>Gathering sources often involves preprocessing the data before moving to the next step.</li><li>Preprocessing
+ may include converting source files into more machine-friendly formats 
+(for example, turning PDFs into plain text) or utilizing dynamic 
+preprocessing libraries before passing documents to the next phase.</li></ul>
+<ol start="2">
+<li><strong>Embed Sources</strong></li></ol>
+<ul>
+<li>Steps involved in embedding documents:<ul>
+<li>Chunking: Large documents are split into smaller, manageable chunks to enable efficient retrieval.</li><li>Embedding:
+ Text chunks are processed by an embedding model, distinct from the LLM 
+used for response generation. This embedding model transforms text 
+chunks into fixed-length numeric vectors that capture their semantic 
+meaning.</li></ul>
+</li><li>How embedding works:<ul>
+<li>Tokenization: Text is split into tokens (for example, words, parts 
+of words, punctuation). Each token is assigned (encoded with) a unique 
+numerical ID with no intrinsic meaning—IDs are consistent for the same 
+token.</li><li>Neural Network Processing: Token IDs are input into the 
+embedding model's neural network, producing fixed-length vectors that 
+encapsulate the text's semantic meaning.</li></ul>
+</li></ul>
+<ol start="3">
+<li><strong>Store Vectors</strong></li></ol>
+<ul>
+<li>Embedding vectors are stored for future retrieval.</li><li>Simple 
+systems use matrices, but most utilize specialized vector databases like
+ ChromaDB, FAISS, or Milvus. Each database offers unique features and 
+limitations.</li></ul>
+<ol start="4">
+<li><strong>Obtain a User's Prompt</strong></li></ol>
+<ul>
+<li>A user's prompt can either be standalone or incorporate prior conversation history.</li><li>If
+ a discussion history is included, conversation memory tools (for 
+example, LangChain, LlamaIndex) help augment the current prompt with the
+ relevant context.</li></ul>
+<ol start="5">
+<li><strong>Embed the User's Prompt</strong></li></ol>
+<ul>
+<li>The user's prompt is embedded using the same embedding model as the source documents, ensuring compatibility.</li></ul>
+<ol start="6">
+<li><strong>Retrieve Relevant Data</strong></li></ol>
+<ul>
+<li>Various retrieval strategies exist, such as:<ul>
+<li>Retrieving the most relevant text chunk.</li><li>Fetching the entire document containing the relevant chunk.</li><li>Retrieving multiple relevant documents.</li></ul>
+</li></ul>
+<ol start="7">
+<li><strong>Create an Augmented Prompt</strong></li></ol>
+<ul>
+<li>Augmented prompts merge the user's original query with retrieved data.</li><li>Common methods include:<ul>
+<li>Simple concatenation of the user's prompt with retrieved text.</li><li>Using
+ structured templates where different components (for example, user 
+input, retrieved text) are placed alongside additional instructions for 
+the LLM to follow.</li></ul>
+</li></ul>
+<ol start="8">
+<li><strong>Obtain a Response</strong></li></ol>
+<ul>
+<li>Responses can be further refined using predefined templates, ensuring a consistent presentation style tailored to the use case.</li></ul>
+<p>The many intricacies of each RAG step contribute to a wide range of 
+implementation possibilities, enabling customization to suit various 
+applications and needs.</p>
+<footer>
+<img src="Skills%20Network%20Editor_files/IBM%20footer%20logo.png" alt="">
+</footer>
+
+</div></div>
+<div class="editormd-container-mask" style="display: none;"></div>
+<div class="editormd-mask"></div></div>
+</div>
+
+<script src="Skills%20Network%20Editor_files/popper.min.js"></script>
+<script src="Skills%20Network%20Editor_files/tippy-bundle.umd.min.js"></script>
+
+<script src="Skills%20Network%20Editor_files/he.js"></script>
+<script type="text/javascript" src="Skills%20Network%20Editor_files/iframeResizer.contentWindow.min.js"></script>
+ 
+<script src="Skills%20Network%20Editor_files/plyr.polyfilled.js"></script>
+<link rel="stylesheet" href="Skills%20Network%20Editor_files/plyr.css"><style class="darkreader darkreader--sync" media="screen"></style>
+<link rel="stylesheet" href="Skills%20Network%20Editor_files/custom_plyr.css"><style class="darkreader darkreader--sync" media="screen"></style>
+
+<script src="Skills%20Network%20Editor_files/jquery.min.js"></script>
+<script src="Skills%20Network%20Editor_files/editormd.js"></script>
+
+<script src="Skills%20Network%20Editor_files/en.js"></script>
+
+<script src="Skills%20Network%20Editor_files/common.js"></script>
+<script src="Skills%20Network%20Editor_files/render.js"></script>
+
+<script type="text/javascript">
+    var authorEditor = $(function () {
+        let metadata = he.decode('{&quot;markdown-version&quot;:&quot;v1&quot;,&quot;tool-type&quot;:&quot;instructional-lab&quot;,&quot;locales-url&quot;:&quot;https://cf-courses-data.static.labs.skills.network/cqwrII5txftvHOMfqQ6zwA/Reading%20-%20What%20is%20RAG-v1-locales.json&quot;,&quot;audio-file-url&quot;:&quot;https://cf-courses-data.static.labs.skills.network/IVaHzfSgCmObEG8R-KfYIw/Reading%20-%20What%20is%20RAG-v1-en.wav&quot;,&quot;audio-timestamp-of-request-to-generate-wav&quot;:&quot;2025-05-01T19:47:32Z&quot;}')
+        injectMetadata(metadata)
+
+        let token = findGetParameter("token");
+
+        let LABS_BASE_URL = 'https://labs.cognitiveclass.ai';
+        let asset_library_prefix_url = 'https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/ImGkdhMSd3iVFeKhhJedXw';
+        let tool_type = "instructional-lab";
+        let filename = `Reading%20-%20What%20is%20RAG-v1.md`;
+        let audioFileUrl = `https://cf-courses-data.static.labs.skills.network/IVaHzfSgCmObEG8R-KfYIw/Reading%20-%20What%20is%20RAG-v1-en.wav`
+        let localesUrl = `https://cf-courses-data.static.labs.skills.network/cqwrII5txftvHOMfqQ6zwA/Reading%20-%20What%20is%20RAG-v1-locales.json`;
+        let launch_presentation_locale = ``;
+        let currentTheme = localStorage.getItem("theme") || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "default");
+
+        return authorEditor = editormd("test-editormd", "3.9.0", {
+            tool_type,
+            filename,
+            audioFileUrl,
+            localesUrl,
+            width: "100%",
+            //height: "100%",
+            autoHeight: true,
+            // mode: 'markdown',
+            theme: currentTheme,
+            previewTheme: currentTheme,
+            editorTheme: currentTheme === "dark" ? "pastel-on-dark" : "default",
+            readOnly: true,
+            pluginPath: 'plugins/',
+            syncScrolling: false,
+            htmlDecode: 'img',
+            path: 'editormd/lib/',
+            watch: false,
+            // markdown,
+            toolbar: false,
+            atLink: false,
+            toc: true,
+            tocm: true,
+            tocDropdown: false,
+            tocTitle: "Table of Contents For your lab!",
+            tex: true,
+            flowChart: true,
+            sequenceDiagram: true,
+            codeFold: true, // Doesn't do anything?
+            taskList: true,
+            emoji: true,
+            saveMarkdownToTextarea: true,
+
+            onresize: function () {
+                $("html,body").css("overflow", "hidden");
+
+                this.preview.css({
+                    width: $(window).width(),
+                    height: $(window).height()
+                })
+
+                adjustProgressBarWidth()
+            },
+            fixCodeBlocks: function () {
+                adjustCodeBlocks(this);
+            },
+            onchange: function () { // called after marked finsihed its rendering
+                fixEncoding(this);
+
+                if (this.settings.tool_type != "instructional-lab") {
+                    fixCustomPlugins(this, 'https://reward.skills.network/claim');
+                }
+            },
+            onload: function () {
+                $(".markdown-body").addClass("hidden")
+                $("[type=\"file\"]").bind("change", function () {
+                    alert($(this).val());
+                    authorEditor.cm.replaceSelection($(this).val());
+                    console.log($(this).val(), authorEditor);
+                });
+
+                this.fullscreen();
+                this.previewing();
+
+                setPreviewWatchToolbar(this);
+
+                if (tool_type != "instructional-lab") {
+                    fixCustomPlugins(this, 'https://reward.skills.network/claim');
+                }
+                else {
+                    if(audioFileUrl) {
+                        addAudioWidget(this, audioFileUrl);
+                    }
+                }
+
+                const preferredLanguage = bcp47ToISO6391(launch_presentation_locale) || (localStorage.getItem("preferredLanguage")?.toUpperCase() || "EN");
+
+                setTranslationContent(preferredLanguage).finally(() => {
+                    this.setMarkdown(this.getMarkdown());
+                    this.previewing();
+                    $(".markdown-body").removeClass("hidden")
+                });
+
+                
+                setAssetLibraryPrefixUrl(asset_library_prefix_url);
+                //comms with UI
+                setParentUrl(LABS_BASE_URL);
+                establishCommsWithUI(this);
+                //let the UI know that the author-ide has loaded
+                requestToUI({ type: "frame_loaded" });
+            }
+        });
+    });
+</script>
+
+
+<script src="Skills%20Network%20Editor_files/bootstrap.bundle.min.js"></script>
+
+</body></html>
